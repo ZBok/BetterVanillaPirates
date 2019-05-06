@@ -1,0 +1,6 @@
+fleet "Marauder fleet XX"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders
