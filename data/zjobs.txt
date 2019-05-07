@@ -390,7 +390,7 @@ mission "Marauder Blockade"
 	npc
 		government "Militia"
 		personality heroic launching
-		fleet "Large Militia" 2
+		fleet "Large Militia" 4
 	npc
 		government "Militia"
 		personality heroic staying
@@ -431,7 +431,7 @@ mission "Southern Marauder Attack"
 	source
 		attributes "frontier"
 		attributes rim south "dirt belt"
-	npc evade
+	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
 		fleet "Large Southern Pirates" 3
@@ -442,7 +442,7 @@ mission "Southern Marauder Attack"
 	npc
 		government "Militia"
 		personality heroic staying launching
-		fleet "Large Militia" 2
+		fleet "Large Militia" 4
 	on offer
 		conversation
 			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
