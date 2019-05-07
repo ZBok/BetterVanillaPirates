@@ -370,3 +370,49 @@ mission "Marauder Hunted2"
 		system
 			distance 5 5
 		fleet "Marauder fleet XX"
+
+		
+		
+mission "Marauder Blockade"
+	name `Marauder fleet blockading <system>`
+	minor
+	repeat
+	description `A large pirate fleet including several Marauder vessels has blockaded <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	to offer
+		random < 5
+		"combat rating" > 8104
+		has "kestrels added"
+	source
+		attributes "south" "rim"
+	destination
+		distance 2 3
+		attributes "south"
+	npc
+		government "Militia"
+		personality heroic
+		fleet "Large Militia" 2
+	npc
+		government "Militia"
+		personality heroic staying
+		system destination
+		fleet "Large Militia"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet XX" 2
+	on offer
+		conversation "marauder blockade"
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+
+conversation "marauder blockade"
+	`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including many Marauders is blockading <destination>. We are sending two fleets immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+	choice
+		`	(Don't join the militia fleet.)`
+			decline
+		`	(Join the militia fleet.)`
+	`The officer seems relieved, "We depart immediately! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well-known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+		launch
