@@ -1,378 +1,7 @@
-# The following three missions check if the player has finished the Kestrel missions and if so,
-# runs an event to add the particular Kestrel model chosen to various fleets.
-
-
-mission "Add KestrelWep"
-	invisible
-	landing
-	to offer
-			has "kestrel: more weapons"
-	on offer
-			event "Add Kestrels (Wep)"
-			set "kestrels added"
-
-mission "Add KestrelTank"
-	invisible
-	landing
-	to offer
-			has "kestrel: more shields"
-	on offer
-			event "Add Kestrels (Tank)"
-			set "kestrels added"
-
-mission "Add KestrelEng"
-	invisible
-	landing
-	to offer
-			has "kestrel: more engines"
-	on offer
-			event "Add Kestrels (Eng)"
-			set "kestrels added"
-	
-	
-event "Add Kestrels (Wep)"
-	fleet "Marauder fleet XX"
-		add variant 3
-			"KestrelWep (Laser)"
-			"Marauder Falcon"
-			"Marauder Firebird"
-			"Marauder Raven (Weapons)"
-			"Marauder Quicksilver (Engines)"
-			"Marauder Arrow (Weapons)"
-			"Marauder Bounder (Engines)"
-		add variant 3
-			"KestrelWep (Plasma)"
-			"Marauder Falcon"
-			"Marauder Firebird"
-			"Marauder Raven (Engines)"
-			"Marauder Quicksilver (Weapons)"
-			"Marauder Arrow (Engines)"
-			"Marauder Bounder (Weapons)"
-		add variant 2
-			"KestrelWep (Particle)"
-			"Marauder Falcon (Weapons)"
-			"Marauder Firebird (Engines)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 2
-			"KestrelWep (Laser)"
-			"Marauder Falcon (Engines)"
-			"Marauder Firebird (Weapons)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 3
-			"KestrelWep (Plasma)"
-			"Marauder Leviathan"
-			"Marauder Firebird"
-			"Marauder Raven (Engines)"
-			"Marauder Quicksilver (Weapons)"
-			"Marauder Arrow (Engines)"
-			"Marauder Bounder (Weapons)"
-		add variant 3
-			"KestrelWep (Particle)"
-			"Marauder Leviathan"
-			"Marauder Firebird"
-			"Marauder Raven (Weapons)"
-			"Marauder Quicksilver (Engines)"
-			"Marauder Arrow (Weapons)"
-			"Marauder Bounder (Engines)"
-		add variant 2
-			"KestrelWep (Laser)"
-			"Marauder Leviathan (Engines)"
-			"Marauder Firebird (Weapons)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 2
-			"KestrelWep (Plasma)"
-			"Marauder Leviathan (Weapons)"
-			"Marauder Firebird (Engines)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-			
-	fleet "Large Northern Pirates"
-		add variant 1
-			"KestrelWep (Laser)"
-	
-	fleet "Large Southern Pirates"
-		add variant 1
-			"KestrelWep (Plasma)"
-		add variant 1
-			"KestrelWep (Torp)"
-	
-	fleet "Large Core Pirates"
-		add variant 1
-			"KestrelWep (Particle)"
-	
-	fleet "Large Northern Merchants"
-		add variant 1
-			"Star Queen"
-			"KestrelWep (Particle)"
-		add variant 1
-			"Star Queen"
-			"KestrelWep (Plasma)"
-
-	fleet "Large Core Merchants"
-		add variant 1
-			"Bulk Freighter (Heavy)" 2
-			"KestrelWep (Laser)"
-		add variant 1
-			"Bulk Freighter" 4
-			"KestrelWep (Laser)"
-			
-	fleet "Large Human Merchants (Hai)"
-		add variant 1
-			"Star Queen (Hai)"
-			"KestrelWep (Hai)"
-		add variant 6
-			"Freighter (Hai)" 4
-			"KestrelWep (Hai)"
-	
-	
-event "Add Kestrels (Tank)"
-	fleet "Marauder fleet XX"
-		add variant 3
-			"KestrelDef (Laser)"
-			"Marauder Falcon"
-			"Marauder Firebird"
-			"Marauder Raven (Weapons)"
-			"Marauder Quicksilver (Engines)"
-			"Marauder Arrow (Weapons)"
-			"Marauder Bounder (Engines)"
-		add variant 3
-			"KestrelDef (Plasma)"
-			"Marauder Falcon"
-			"Marauder Firebird"
-			"Marauder Raven (Engines)"
-			"Marauder Quicksilver (Weapons)"
-			"Marauder Arrow (Engines)"
-			"Marauder Bounder (Weapons)"
-		add variant 2
-			"KestrelDef (Particle)"
-			"Marauder Falcon (Weapons)"
-			"Marauder Firebird (Engines)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 2
-			"KestrelDef (Laser)"
-			"Marauder Falcon (Engines)"
-			"Marauder Firebird (Weapons)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 3
-			"KestrelDef (Plasma)"
-			"Marauder Leviathan"
-			"Marauder Firebird"
-			"Marauder Raven (Engines)"
-			"Marauder Quicksilver (Weapons)"
-			"Marauder Arrow (Engines)"
-			"Marauder Bounder (Weapons)"
-		add variant 3
-			"KestrelDef (Particle)"
-			"Marauder Leviathan"
-			"Marauder Firebird"
-			"Marauder Raven (Weapons)"
-			"Marauder Quicksilver (Engines)"
-			"Marauder Arrow (Weapons)"
-			"Marauder Bounder (Engines)"
-		add variant 2
-			"KestrelDef (Laser)"
-			"Marauder Leviathan (Engines)"
-			"Marauder Firebird (Weapons)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 2
-			"KestrelDef (Plasma)"
-			"Marauder Leviathan (Weapons)"
-			"Marauder Firebird (Engines)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-			
-	fleet "Large Northern Pirates"
-		add variant 1
-			"KestrelDef (Laser)"
-	
-	fleet "Large Southern Pirates"
-		add variant 1
-			"KestrelDef (Plasma)"
-		add variant 1
-			"KestrelDef (Torp)"
-	
-	fleet "Large Core Pirates"
-		add variant 1
-			"KestrelDef (Particle)"
-			
-	fleet "Large Northern Merchants"
-		add variant 1
-			"Star Queen"
-			"KestrelDef (Particle)"
-		add variant 1
-			"Star Queen"
-			"KestrelDef (Plasma)"
-			
-	fleet "Large Core Merchants"
-		add variant 1
-			"Bulk Freighter (Heavy)" 2
-			"KestrelDef (Laser)"
-		add variant 1
-			"Bulk Freighter" 4
-			"KestrelDef (Laser)"
-			
-	fleet "Large Human Merchants (Hai)"
-		add variant 1
-			"Star Queen (Hai)"
-			"KestrelDef (Hai)"
-		add variant 6
-			"Freighter (Hai)" 4
-			"KestrelDef (Hai)"
-
-
-event "Add Kestrels (Eng)"	
-	fleet "Marauder fleet XX"
-		add variant 3
-			"KestrelEng (Laser)"
-			"Marauder Falcon"
-			"Marauder Firebird"
-			"Marauder Raven (Weapons)"
-			"Marauder Quicksilver (Engines)"
-			"Marauder Arrow (Weapons)"
-			"Marauder Bounder (Engines)"
-		add variant 3
-			"KestrelEng (Plasma)"
-			"Marauder Falcon"
-			"Marauder Firebird"
-			"Marauder Raven (Engines)"
-			"Marauder Quicksilver (Weapons)"
-			"Marauder Arrow (Engines)"
-			"Marauder Bounder (Weapons)"
-		add variant 2
-			"KestrelEng (Particle)"
-			"Marauder Falcon (Weapons)"
-			"Marauder Firebird (Engines)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 2
-			"KestrelEng (Laser)"
-			"Marauder Falcon (Engines)"
-			"Marauder Firebird (Weapons)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 3
-			"KestrelEng (Plasma)"
-			"Marauder Leviathan"
-			"Marauder Firebird"
-			"Marauder Raven (Engines)"
-			"Marauder Quicksilver (Weapons)"
-			"Marauder Arrow (Engines)"
-			"Marauder Bounder (Weapons)"
-		add variant 3
-			"KestrelEng (Particle)"
-			"Marauder Leviathan"
-			"Marauder Firebird"
-			"Marauder Raven (Weapons)"
-			"Marauder Quicksilver (Engines)"
-			"Marauder Arrow (Weapons)"
-			"Marauder Bounder (Engines)"
-		add variant 2
-			"KestrelEng (Laser)"
-			"Marauder Leviathan (Engines)"
-			"Marauder Firebird (Weapons)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-		add variant 2
-			"KestrelEng (Plasma)"
-			"Marauder Leviathan (Weapons)"
-			"Marauder Firebird (Engines)"
-			"Marauder Raven"
-			"Marauder Quicksilver"
-			"Marauder Arrow"
-			"Marauder Bounder"
-
-	fleet "Large Northern Pirates"
-		add variant 1
-			"KestrelEng (Laser)"
-	
-	fleet "Large Southern Pirates"
-		add variant 1
-			"KestrelEng (Plasma)"
-		add variant 1
-			"KestrelEng (Torp)"
-	
-	fleet "Large Core Pirates"
-		add variant 1
-			"KestrelEng (Particle)"
-			
-	fleet "Large Northern Merchants"
-		add variant 1
-			"Star Queen"
-			"KestrelEng (Particle)"
-		add variant 1
-			"Star Queen"
-			"KestrelEng (Plasma)"
-	
-	fleet "Large Core Merchants"
-		add variant 1
-			"Bulk Freighter (Heavy)" 2
-			"KestrelEng (Laser)"
-		add variant 1
-			"Bulk Freighter" 4
-			"KestrelEng (Laser)"
-
-	fleet "Large Human Merchants (Hai)"
-		add variant 1
-			"Star Queen (Hai)"
-			"KestrelEng (Hai)"
-		add variant 6
-			"Freighter (Hai)" 4
-			"KestrelEng (Hai)"
-	
-
 # Similar to existing Bounty Hunter invisible mission, but more difficult and higher combat rating required.
 # Must destroy hunters and land to fail
 
 mission "Marauder Kestrel Hunted"
-	invisible
-	landing
-	repeat
-	destination "Earth"
-	source
-		government "Republic" "Syndicate" "Free Worlds" "Neutral"
-	to offer
-		"combat rating" > 22027
-		random < 3
-		has "kestrels added"
-	to complete
-		never
-	npc save
-		government "Bounty Hunter"
-		personality heroic unconstrained waiting nemesis plunders harvests
-		system
-			distance 5 5
-		fleet "Marauder fleet XX"
-		fleet "Marauder fleet X"
-		
-mission "Marauder Kestrel Duo Hunted"
 	invisible
 	landing
 	repeat
@@ -390,6 +19,27 @@ mission "Marauder Kestrel Duo Hunted"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
 			distance 5 5
+		fleet "Marauder fleet XX"
+		fleet "Marauder fleet X"
+		
+mission "Marauder Kestrel Trio Hunted"
+	invisible
+	landing
+	repeat
+	destination "Earth"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral"
+	to offer
+		"combat rating" > 162755
+		random < 3
+		has "kestrels added"
+	to complete
+		never
+	npc save
+		government "Bounty Hunter"
+		personality heroic unconstrained waiting nemesis plunders harvests
+		system
+			distance 5 5
 		fleet "Marauder fleet XX" 3
 
 		
@@ -398,9 +48,9 @@ mission "Marauder Blockade"
 	name `Marauder fleet blockading <system>`
 	minor
 	repeat
-	description `A large pirate fleet including several Marauder vessels has blockaded <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	description `A large pirate fleet including a Kestrel and several Marauder vessels has blockaded <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
 	to offer
-		random < 5
+		random < 10
 		"combat rating" > 8104
 		has "kestrels added"
 	source
@@ -431,7 +81,7 @@ mission "Marauder Blockade"
 		dialog phrase "generic pirate attack payment dialog"
 
 conversation "marauder blockade"
-	`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including many Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+	`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including a Kestrel and several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
 	choice
 		`	(Don't join the militia fleet.)`
 			decline
@@ -466,7 +116,7 @@ mission "Southern Marauder Attack"
 		fleet "Large Militia" 4
 	on offer
 		conversation
-			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including a Kestrel and several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
 			choice
 				`	(Stay here until the fight is over.)`
 					decline
@@ -475,6 +125,62 @@ mission "Southern Marauder Attack"
 				launch
 	on complete
 		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Southern Marauder Blockade Attempt"
+	name "Defend <planet>"
+	description "Defeat a Marauder blockade attempt on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 59875
+		random < 7
+		has "kestrels added"
+	source
+		attributes "frontier"
+		attributes rim south "dirt belt"
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 1
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 2 2
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 3 3
+	npc
+		government "Militia"
+		personality heroic staying launching
+		fleet "Large Militia" 3
+	npc
+		government "Militia"
+		personality heroic
+		fleet "Large Militia" 4
+		system
+			distance 2 2
+	on offer
+		conversation
+			`You've barely entered the spaceport when you hear a low voice "Captain <last>?" You turn to see a young militia officer who beckons you into a small alcove and says quietly "We've just received intelligence that this system will soon be under blockade by a huge conglomeration of pirates. Would you be willing to aid us in holding them off"?`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("Let's do this! What's the plan?")`
+			`The officer leads you into a small windowless room where a group of pilots is waiting in discussion, but quieten down when they see the officer, who quickly summarises the situation. "There are three hostile fleets including Kestrels and Marauders incoming from varying locations, the first of which will be arriving any moment. A nearby militia fleet is also en route and will be reinforcing you shortly. Take off immediately and prepare for the assault. Good luck!"`
+				launch
+	on complete
+		payment 5000000
 		dialog phrase "generic pirate attack payment dialog"
 		
 		
@@ -503,7 +209,7 @@ mission "Deep Marauder Attack"
 		fleet "Large Deep Security" 4
 	on offer
 		conversation
-			`You notice a Deep Security officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			`You notice a Deep Security officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including a Kestrel and several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
 			choice
 				`	(Stay here until the fight is over.)`
 					decline
@@ -540,7 +246,7 @@ mission "Northern Marauder Attack"
 		fleet "Small Republic" 4
 	on offer
 		conversation
-			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including a Kestrel and several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
 			choice
 				`	(Stay here until the fight is over.)`
 					decline
@@ -577,7 +283,7 @@ mission "Core Marauder Attack"
 		fleet "Large Syndicate" 4
 	on offer
 		conversation
-			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including a Kestrel and several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
 			choice
 				`	(Stay here until the fight is over.)`
 					decline
@@ -613,7 +319,7 @@ mission "Bounty Hunting (Marauder XX)"
 		dialog phrase "generic fleet bounty hunting payment dialog"
 		
 mission "Bounty Hunting (Marauder XX Trio)"
-	name "Hunt down the <npc>"
+	name "Destroy Marauder Fleet"
 	description "Three pirate Kestrel vessels, leading a huge Marauder fleet, have been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
 	repeat
 	job
@@ -630,8 +336,31 @@ mission "Bounty Hunting (Marauder XX Trio)"
 		system
 			distance 1 3
 		fleet "Marauder fleet XX" 3
-		fleet "Marauder fleet X"
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on complete
 		payment 2500000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting (Marauder XX Trio2)"
+	name "Destroy Marauder Fleet"
+	description "Three pirate Kestrel vessels, leading a gigantic Marauder fleet, have been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 59875
+		random < 30
+		has "kestrels added"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX" 3
+		fleet "Marauder fleet X" 3
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 5000000
 		dialog phrase "generic fleet bounty hunting payment dialog"

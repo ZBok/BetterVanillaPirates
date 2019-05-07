@@ -5,10 +5,10 @@ PLEASE make backups of your pilot file before using this plugin.
 To test fully, use a pilot with the Kestrel missions completed and a combat rating of 9 or higher, or 11 and higher to see the all the new "invisible" bounty hunter missions.
 
 - Adds 15 kestrel variants (5 for each design choice, of these 4 human and 1 Hai)
-- If/when player completes Kestrel missions, adds the variants corresponding to your design choice to various NPC fleets with very low spawn rate, and creates new Marauder fleet(s) using said kestrel variants and other existing Marauders
+- If/when player completes Kestrel missions, adds variants corresponding to your design choice to various NPC fleets with very low spawn rate, and creates new Marauder fleet(s) using said kestrel variants and other existing Marauders, and uses them in the missions below.
 - Adds two hidden "Bounty Hunter" missions, similar to the existing but more difficult (more variety on these soon)
-- Adds five new spaceport combat missions (many more incoming soon)
-- Adds two new Bounty Hunter jobs (more incoming)
+- Adds six new high end spaceport combat missions (many more incoming soon)
+- Adds three new high end Bounty Hunter jobs (more incoming)
 
 Working on adding the following:
 
