@@ -1,13 +1,13 @@
-Very much WIP from super noob attempting first plugin, feedback much appreciated
+This plugin is focused on adding more pirate outfit variety, including the Kestrel, into ambient NPC fleets and mission targets, and introducing much more challenging and varied late game combat missions in human space (for now). Very much WIP from super noob attempting first plugin, feedback much appreciated
 
 PLEASE make backups of your pilot file before using this plugin.
 
-To test fully, use a pilot with the Kestrel missions completed and a combat rating of 9 or higher, or 11 and higher to see the new "invisible" bounty hunter mission.
+To test fully, use a pilot with the Kestrel missions completed and a combat rating of 9 or higher, or 11 and higher to see the all the new "invisible" bounty hunter missions.
 
 - Adds 15 kestrel variants (5 for each design choice, of these 4 human and 1 Hai)
 - If/when player completes Kestrel missions, adds the variants corresponding to your design choice to various NPC fleets with very low spawn rate, and creates new Marauder fleet(s) using said kestrel variants and other existing Marauders
-- Adds hidden "Bounty Hunter" mission, similar to the existing but more difficult (more variety on these soon)
-- Adds two spaceport combat jobs (many more incoming soon)
+- Adds two hidden "Bounty Hunter" missions, similar to the existing but more difficult (more variety on these soon)
+- Adds five new spaceport combat missions (many more incoming soon)
 
 Working on adding the following:
 
