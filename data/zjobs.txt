@@ -1,3 +1,7 @@
+# The following three missions check if the player has finished the Kestrel missions and if so,
+# runs an event to add the particular Kestrel model chosen to various fleets.
+
+
 mission "Add KestrelWep"
 	invisible
 	landing
@@ -107,6 +111,30 @@ event "Add Kestrels (Wep)"
 		add variant 1
 			"KestrelWep (Particle)"
 	
+	fleet "Large Northern Merchants"
+		add variant 1
+			"Star Queen"
+			"KestrelWep (Particle)"
+		add variant 1
+			"Star Queen"
+			"KestrelWep (Plasma)"
+
+	fleet "Large Core Merchants"
+		add variant 1
+			"Bulk Freighter (Heavy)" 2
+			"KestrelWep (Laser)"
+		add variant 1
+			"Bulk Freighter" 4
+			"KestrelWep (Laser)"
+			
+	fleet "Large Human Merchants (Hai)"
+		add variant 1
+			"Star Queen (Hai)"
+			"KestrelWep (Hai)"
+		add variant 6
+			"Freighter (Hai)" 4
+			"KestrelWep (Hai)"
+	
 	
 event "Add Kestrels (Tank)"
 	fleet "Marauder fleet XX"
@@ -188,6 +216,30 @@ event "Add Kestrels (Tank)"
 	fleet "Large Core Pirates"
 		add variant 1
 			"KestrelDef (Particle)"
+			
+	fleet "Large Northern Merchants"
+		add variant 1
+			"Star Queen"
+			"KestrelDef (Particle)"
+		add variant 1
+			"Star Queen"
+			"KestrelDef (Plasma)"
+			
+	fleet "Large Core Merchants"
+		add variant 1
+			"Bulk Freighter (Heavy)" 2
+			"KestrelDef (Laser)"
+		add variant 1
+			"Bulk Freighter" 4
+			"KestrelDef (Laser)"
+			
+	fleet "Large Human Merchants (Hai)"
+		add variant 1
+			"Star Queen (Hai)"
+			"KestrelDef (Hai)"
+		add variant 6
+			"Freighter (Hai)" 4
+			"KestrelDef (Hai)"
 
 
 event "Add Kestrels (Eng)"	
@@ -270,11 +322,35 @@ event "Add Kestrels (Eng)"
 	fleet "Large Core Pirates"
 		add variant 1
 			"KestrelEng (Particle)"
+			
+	fleet "Large Northern Merchants"
+		add variant 1
+			"Star Queen"
+			"KestrelEng (Particle)"
+		add variant 1
+			"Star Queen"
+			"KestrelEng (Plasma)"
 	
-	
+	fleet "Large Core Merchants"
+		add variant 1
+			"Bulk Freighter (Heavy)" 2
+			"KestrelEng (Laser)"
+		add variant 1
+			"Bulk Freighter" 4
+			"KestrelEng (Laser)"
+
+	fleet "Large Human Merchants (Hai)"
+		add variant 1
+			"Star Queen (Hai)"
+			"KestrelEng (Hai)"
+		add variant 6
+			"Freighter (Hai)" 4
+			"KestrelEng (Hai)"
 	
 
+# Similar to existing Bounty Hunter invisible mission, but more difficult and higher combat rating required.
 # Must destroy hunters and land to fail
+
 mission "Marauder Hunted2"
 	invisible
 	landing

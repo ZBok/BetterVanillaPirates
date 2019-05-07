@@ -79,6 +79,31 @@ ship "Kestrel" "KestrelEng (Torp)"
 		"S-970 Regenerator"
 		"Torpedo Storage Rack" 6
 		
+ship "Kestrel" "KestrelEng (Hai)"
+	add attributes
+		"drag" -1.0
+		"fuel capacity" 100
+		"engine capacity" 30
+	outfits
+		"Outfits Expansion" 4
+		Hyperdrive
+		"Hai Ravine Batteries"
+		"Liquid Helium Cooler"
+		"Quantum Keystone"
+		"Hai Diamond Regenerator"
+		"Boulder Reactor"
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Pulse Cannon" 2
+		"Tracker Storage Pod"
+		"Ion Cannon" 2
+		"Hai Tracker" 140
+		"Hai Tracker Pod" 2
+		"Pulse Turret" 4
+		`"Benga" Atomic Steering`
+		"Geode Reactor"
+		"Tactical Scanner" 2
+		
 		
 ship "Kestrel" "KestrelDef (Particle)"
 	add attributes
@@ -155,6 +180,30 @@ ship "Kestrel" "KestrelDef (Torp)"
 		"Armageddon Core"
 		"S-970 Regenerator"
 		"Torpedo Storage Rack" 6
+		
+ship "Kestrel" "KestrelDef (Hai)"
+	add attributes
+		"shields" 3000
+		"hull" 1500
+	outfits
+		"Outfits Expansion" 2
+		Hyperdrive
+		"Hai Ravine Batteries"
+		"Liquid Helium Cooler"
+		"Quantum Keystone"
+		"Hai Diamond Regenerator"
+		"Boulder Reactor"
+		"A865 Atomic Steering"
+		"Pulse Cannon" 2
+		"Tracker Storage Pod"
+		"Ion Cannon" 2
+		"Hai Tracker" 140
+		"Hai Tracker Pod" 2
+		"Pulse Turret" 4
+		`"Bufaer" Atomic Thruster`
+		"Geode Reactor"
+		`"Basrem" Atomic Steering`
+		"Tactical Scanner" 2
 		
 ship "Kestrel" "KestrelWep (Particle)"
 	add attributes
@@ -294,3 +343,42 @@ ship "Kestrel" "KestrelWep (Torp)"
 	gun 75 57 "Torpedo Launcher"
 	gun -75 57
 	gun 75 57
+	
+ship "Kestrel" "KestrelWep (Hai)"
+	add attributes
+		"weapon capacity" 40
+	outfits
+		"Outfits Expansion" 4
+		Hyperdrive
+		"Hai Ravine Batteries"
+		"Liquid Helium Cooler"
+		"Quantum Keystone"
+		"Hai Diamond Regenerator"
+		"Boulder Reactor"
+		"A865 Atomic Steering"
+		"Pulse Cannon" 10
+		"Ion Cannon" 2
+		"Hai Tracker" 336
+		"Hai Tracker Pod" 6
+		`"Bufaer" Atomic Thruster`
+		"Geode Reactor"
+		`"Basrem" Atomic Steering`
+		"Tactical Scanner"
+	gun -31 66 "Hai Tracker Pod"
+	gun 31 66 "Hai Tracker Pod"
+	gun -31 66 "Ion Cannon"
+	gun 31 66 "Ion Cannon"
+	gun -31 66 "Hai Tracker Pod"
+	gun 31 66 "Hai Tracker Pod"
+	gun -53 61 "Pulse Cannon"
+	gun 53 61 "Pulse Cannon"
+	gun -53 61 "Pulse Cannon"
+	gun 53 61 "Pulse Cannon"
+	gun -53 61 "Pulse Cannon"
+	gun 53 61 "Pulse Cannon"
+	gun -75 57 "Pulse Cannon"
+	gun 75 57 "Pulse Cannon"
+	gun -75 57 "Pulse Cannon"
+	gun 75 57 "Pulse Cannon"
+	gun -75 57 "Hai Tracker Pod"
+	gun 75 57 "Hai Tracker Pod"
