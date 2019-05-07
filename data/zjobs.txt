@@ -41,8 +41,6 @@ mission "Marauder Kestrel Trio Hunted"
 		system
 			distance 5 5
 		fleet "Marauder fleet XX" 3
-
-		
 		
 mission "Marauder Blockade"
 	name `Marauder fleet blockading <system>`
@@ -186,7 +184,7 @@ mission "Northern Marauder Attack"
 	npc
 		government "Republic"
 		personality heroic staying launching
-		fleet "Small Republic" 4
+		fleet "Small Republic" 3
 	on offer
 		conversation
 			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including a Kestrel and several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
@@ -223,7 +221,7 @@ mission "Core Marauder Attack"
 	npc
 		government "Syndicate"
 		personality heroic staying launching
-		fleet "Large Syndicate" 4
+		fleet "Large Syndicate" 3
 	on offer
 		conversation
 			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including a Kestrel and several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
