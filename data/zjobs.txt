@@ -450,7 +450,118 @@ mission "Southern Marauder Attack"
 				`	(Stay here until the fight is over.)`
 					decline
 				`	(Join the defense fleet.)`
-			`The officer seems relieved. "Take off immediately and prepare for the assault, they will be arriving any minute now! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+			`The officer seems relieved. "Take off immediately and prepare for the assault, the hostile fleet will be arriving any minute now! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+		
+mission "Deep Marauder Attack"
+	name "Defend <planet>"
+	description "Defeat a Marauder raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 8104
+		random < 7
+		has "kestrels added"
+	source
+		attributes deep
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 2 2
+	npc
+		government "Deep Security"
+		personality heroic staying launching
+		fleet "Large Deep Security" 4
+	on offer
+		conversation
+			`You notice a Deep Security officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			choice
+				`	(Stay here until the fight is over.)`
+					decline
+				`	(Join the defense fleet.)`
+			`The officer seems relieved. "Take off immediately and prepare for the assault, the hostile fleet will be arriving any minute now! I'll see you all on the other side." Several of the Deep Security pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Northern Marauder Attack"
+	name "Defend <planet>"
+	description "Defeat a Marauder raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 8104
+		random < 7
+		has "kestrels added"
+	source
+		attributes "frontier"
+		attributes north paradise
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 2 2
+	npc
+		government "Republic"
+		personality heroic staying launching
+		fleet "Small Republic" 4
+	on offer
+		conversation
+			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			choice
+				`	(Stay here until the fight is over.)`
+					decline
+				`	(Join the defense fleet.)`
+			`The officer seems relieved. "Take off immediately and prepare for the assault, the hostile fleet will be arriving any minute now! I'll see you all on the other side." Several of the Republic pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Core Marauder Attack"
+	name "Defend <planet>"
+	description "Defeat a Marauder raid on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 8104
+		random < 7
+		has "kestrels added"
+	source
+		attributes "frontier"
+		attributes "core" "near earth"
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 2 2
+	npc
+		government "Syndicate"
+		personality heroic staying launching
+		fleet "Large Syndicate" 4
+	on offer
+		conversation
+			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a very large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of "several Marauders" makes you think twice...`
+			choice
+				`	(Stay here until the fight is over.)`
+					decline
+				`	(Join the defense fleet.)`
+			`The officer seems relieved. "Take off immediately and prepare for the assault, the hostile fleet will be arriving any minute now! I'll see you all on the other side." Several of the Syndicate pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
 				launch
 	on complete
 		payment 1000000
