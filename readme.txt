@@ -2,7 +2,9 @@ This plugin is focused on adding more pirate outfit variety, including the Kestr
 
 PLEASE make backups of your pilot file before using this plugin.
 
-To test fully, use a pilot with the Kestrel missions completed and a combat rating of 9 or higher, or 11 and higher to see the all the new "invisible" bounty hunter missions.
+To test fully, use a pilot with the Kestrel missions completed and a combat rating of 9 or higher, or 12 and higher to see the all the new "invisible" bounty hunter missions.
+
+Go to human space and check out the job board, and spam spaceport, but watch out for the new bounty hunters coming after you :D The spaceport missions involve friendly NPC fleet assistance corresponding to your location.
 
 - Adds 15 kestrel variants (5 for each design choice, of these 4 human and 1 Hai)
 - If/when player completes Kestrel missions, adds variants corresponding to your design choice to various NPC fleets with very low spawn rate, and creates new Marauder fleet(s) using said kestrel variants and other existing Marauders, and uses them in the missions below.
