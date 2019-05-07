@@ -351,7 +351,28 @@ event "Add Kestrels (Eng)"
 # Similar to existing Bounty Hunter invisible mission, but more difficult and higher combat rating required.
 # Must destroy hunters and land to fail
 
-mission "Marauder Hunted2"
+mission "Marauder Kestrel Hunted"
+	invisible
+	landing
+	repeat
+	destination "Earth"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral"
+	to offer
+		"combat rating" > 22027
+		random < 3
+		has "kestrels added"
+	to complete
+		never
+	npc save
+		government "Bounty Hunter"
+		personality heroic unconstrained waiting nemesis plunders harvests
+		system
+			distance 5 5
+		fleet "Marauder fleet XX"
+		fleet "Marauder fleet X"
+		
+mission "Marauder Kestrel Duo Hunted"
 	invisible
 	landing
 	repeat
@@ -369,7 +390,7 @@ mission "Marauder Hunted2"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
 			distance 5 5
-		fleet "Marauder fleet XX"
+		fleet "Marauder fleet XX" 3
 
 		
 		
