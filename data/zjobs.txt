@@ -587,3 +587,51 @@ mission "Core Marauder Attack"
 	on complete
 		payment 1000000
 		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Bounty Hunting (Marauder XX)"
+	name "Hunt down the <npc>"
+	description "A pirate Kestrel named the <npc>, leading a large Marauder fleet, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 8105
+		random < 30
+		has "kestrels added"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX"
+		fleet "Marauder fleet X"
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 1000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting (Marauder XX Trio)"
+	name "Hunt down the <npc>"
+	description "Three pirate Kestrel vessels, leading a huge Marauder fleet, have been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 22027
+		random < 30
+		has "kestrels added"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX" 3
+		fleet "Marauder fleet X"
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 2500000
+		dialog phrase "generic fleet bounty hunting payment dialog"

@@ -8,6 +8,7 @@ To test fully, use a pilot with the Kestrel missions completed and a combat rati
 - If/when player completes Kestrel missions, adds the variants corresponding to your design choice to various NPC fleets with very low spawn rate, and creates new Marauder fleet(s) using said kestrel variants and other existing Marauders
 - Adds two hidden "Bounty Hunter" missions, similar to the existing but more difficult (more variety on these soon)
 - Adds five new spaceport combat missions (many more incoming soon)
+- Adds two new Bounty Hunter jobs (more incoming)
 
 Working on adding the following:
 
