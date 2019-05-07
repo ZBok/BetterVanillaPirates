@@ -42,7 +42,7 @@ mission "Marauder Kestrel Trio Hunted"
 			distance 5 5
 		fleet "Marauder fleet XX" 3
 		
-mission "Marauder Blockade"
+mission "Southern Marauder Blockade"
 	name `Marauder fleet blockading <system>`
 	minor
 	repeat
@@ -52,14 +52,14 @@ mission "Marauder Blockade"
 		"combat rating" > 8104
 		has "kestrels added"
 	source
-		attributes "south" "rim"
+		attributes south "rim"
 	destination
 		distance 2 3
-		attributes "south"
+		attributes south "rim"
 	npc
 		government "Militia"
 		personality heroic launching
-		fleet "Large Militia" 4
+		fleet "Large Militia" 2
 	npc
 		government "Militia"
 		personality heroic staying
@@ -73,21 +73,147 @@ mission "Marauder Blockade"
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 	on offer
-		conversation "marauder blockade"
+		conversation
+			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including a Kestrel and several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
+			choice
+				`	(Don't join the militia fleet.)`
+					decline
+				`	(Join the militia fleet.)`
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Northern Marauder Blockade"
+	name `Marauder fleet blockading <system>`
+	minor
+	repeat
+	description `A large pirate fleet including a Kestrel and several Marauder vessels has blockaded <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	to offer
+		random < 10
+		"combat rating" > 8104
+		has "kestrels added"
+	source
+		attributes north paradise
+	destination
+		distance 2 3
+		attributes north paradise
+	npc
+		government "Republic"
+		personality heroic launching
+		fleet "Small Republic"
+	npc
+		government "Republic"
+		personality heroic staying
+		system destination
+		fleet "Small Republic"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+	on offer
+		conversation
+			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including a Kestrel and several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
+			choice
+				`	(Don't join the militia fleet.)`
+					decline
+				`	(Join the militia fleet.)`
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Republic pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Deep Marauder Blockade"
+	name `Marauder fleet blockading <system>`
+	minor
+	repeat
+	description `A large pirate fleet including a Kestrel and several Marauder vessels has blockaded <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	to offer
+		random < 10
+		"combat rating" > 8104
+		has "kestrels added"
+	source
+		attributes deep
+	destination
+		distance 2 3
+		attributes deep
+	npc
+		government "Deep Security"
+		personality heroic launching
+		fleet "Large Deep Security" 2
+	npc
+		government "Deep Security"
+		personality heroic staying
+		system destination
+		fleet "Large Deep Security"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+	on offer
+		conversation
+			`You notice a Deep Security officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including a Kestrel and several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
+			choice
+				`	(Don't join the militia fleet.)`
+					decline
+				`	(Join the militia fleet.)`
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Deep Security pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
+	on complete
+		payment 1000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Core Marauder Blockade"
+	name `Marauder fleet blockading <system>`
+	minor
+	repeat
+	description `A large pirate fleet including a Kestrel and several Marauder vessels has blockaded <system>, and the local government has asked for help. Defeat the pirates in the system and land on <planet> when done. Payment is <payment>.`
+	to offer
+		random < 10
+		"combat rating" > 8104
+		has "kestrels added"
+	source
+		attributes "core" "near earth"
+	destination
+		distance 2 3
+		attributes "core"
+	npc
+		government "Syndicate"
+		personality heroic launching
+		fleet "Large Syndicate" 1
+	npc
+		government "Syndicate"
+		personality heroic staying
+		system destination
+		fleet "Large Syndicate"
+	npc evade
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+	on offer
+		conversation
+			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including a Kestrel and several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
+			choice
+				`	(Don't join the militia fleet.)`
+					decline
+				`	(Join the militia fleet.)`
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Syndicate pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
+				launch
 	on complete
 		payment 1000000
 		dialog phrase "generic pirate attack payment dialog"
 
-conversation "marauder blockade"
-	`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A huge pirate fleet including a Kestrel and several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of a Kestrel makes you think twice...`
-	choice
-		`	(Don't join the militia fleet.)`
-			decline
-		`	(Join the militia fleet.)`
-	`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
-		launch
-		
-		
 mission "Southern Marauder Attack"
 	name "Defend <planet>"
 	description "Defeat a Marauder raid on <destination>."

@@ -1,0 +1,3 @@
+This plugin is focused on adding more pirate outfit variety, including the Kestrel, into ambient NPC fleets and mission targets, and introducing much more challenging and varied late game combat missions in human space.
+
+It is designed to be tough. Take care!

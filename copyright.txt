@@ -1,0 +1,8 @@
+﻿Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ESPirates
+Upstream-Contact: ZigZag <zigzag@gmail.com>
+Source: https://github.com/endless-sky/endless-sky
+
+Files: *
+Copyright: ZigZag <zigzag@gmail.com>
+License: Public Domain
