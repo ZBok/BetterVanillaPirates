@@ -229,7 +229,7 @@ mission "Southern Marauder Attack"
 	npc
 		government "Militia"
 		personality heroic staying launching
-		fleet "Large Militia" 4
+		fleet "Large Militia" 3
 	on offer
 		conversation
 			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
@@ -436,11 +436,11 @@ mission "Northern Marauder Blockade Attempt"
 	npc
 		government "Republic"
 		personality heroic staying launching
-		fleet "Small Republic" 3
+		fleet "Small Republic" 4
 	npc
 		government "Republic"
 		personality heroic
-		fleet "Small Republic" 3
+		fleet "Small Republic" 4
 		system
 			distance 1 1
 	on offer
