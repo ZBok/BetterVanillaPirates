@@ -49,10 +49,10 @@ mission "Southern Marauder Blockade"
 		random < 10
 		"combat rating" > 8104
 	source
-		attributes south rim
+		attributes south rim "dirt belt"
 	destination
 		distance 2 3
-		attributes south rim
+		attributes south rim "dirt belt"
 	npc
 		government "Militia"
 		personality heroic launching
