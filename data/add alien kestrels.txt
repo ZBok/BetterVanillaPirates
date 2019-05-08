@@ -1,0 +1,159 @@
+#add alien kestrels/marauders to "Marauder fleet XX" if both main storyline and kestrel missions are completed
+
+mission "Add KestrelWep AlienTech"
+	invisible
+	landing
+	to offer
+			has "kestrel: more weapons"
+			has "main plot completed"
+	on offer
+			event "Add Alien Kestrels (Wep)"
+			
+mission "Add KestrelDef AlienTech"
+	invisible
+	landing
+	to offer
+			has "kestrel: more shields"
+			has "main plot completed"
+	on offer
+			event "Add Alien Kestrels (Def)"
+			
+mission "Add KestrelEng AlienTech"
+	invisible
+	landing
+	to offer
+			has "kestrel: more engines"
+			has "main plot completed"
+	on offer
+			event "Add Alien Kestrels (Eng)"
+			
+			
+event "Add Alien Kestrels (Wep)"
+	fleet "Marauder fleet XX"
+		add variant 2
+			"KestrelWep (Hai)"
+			"Marauder Leviathan (Engines - AlienTech)"
+			"Marauder Splinter (Weapons)"
+			"Marauder Manta (Engines - AlienTech)"
+			"Marauder Firebird (Weapons)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelWep (Hai)"	
+			"Marauder Falcon (Weapons - AlienTech)"
+			"Marauder Splinter (Engines - AlienTech)"
+			"Marauder Manta (Weapons)"
+			"Marauder Firebird (Engines - AlienTech)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelWep (Hai)"
+			"Marauder Leviathan (Weapons - AlienTech)"
+			"Marauder Splinter (Weapons - AlienTech)"
+			"Marauder Manta (Engines)"
+			"Marauder Firebird (Weapons - AlienTech)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelWep (Hai)"
+			"Marauder Falcon (Engines - AlienTech)"
+			"Marauder Splinter (Engines)"
+			"Marauder Manta (Weapons - AlienTech)"
+			"Marauder Firebird (Engines)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+	
+	
+event "Add Alien Kestrels (Def)"
+	fleet "Marauder fleet XX"
+		add variant 2
+			"KestrelDef (Hai)"
+			"Marauder Leviathan (Engines - AlienTech)"
+			"Marauder Splinter (Weapons)"
+			"Marauder Manta (Engines - AlienTech)"
+			"Marauder Firebird (Weapons)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelDef (Hai)"	
+			"Marauder Falcon (Weapons - AlienTech)"
+			"Marauder Splinter (Engines - AlienTech)"
+			"Marauder Manta (Weapons)"
+			"Marauder Firebird (Engines - AlienTech)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelDef (Hai)"
+			"Marauder Leviathan (Weapons - AlienTech)"
+			"Marauder Splinter (Weapons - AlienTech)"
+			"Marauder Manta (Engines)"
+			"Marauder Firebird (Weapons - AlienTech)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelDef (Hai)"
+			"Marauder Falcon (Engines - AlienTech)"
+			"Marauder Splinter (Engines)"
+			"Marauder Manta (Weapons - AlienTech)"
+			"Marauder Firebird (Engines)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+
+event "Add Alien Kestrels (Eng)"
+	fleet "Marauder fleet XX"
+		add variant 2
+			"KestrelEng (Hai)"
+			"Marauder Leviathan (Engines - AlienTech)"
+			"Marauder Splinter (Weapons)"
+			"Marauder Manta (Engines - AlienTech)"
+			"Marauder Firebird (Weapons)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelEng (Hai)"	
+			"Marauder Falcon (Weapons - AlienTech)"
+			"Marauder Splinter (Engines - AlienTech)"
+			"Marauder Manta (Weapons)"
+			"Marauder Firebird (Engines - AlienTech)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelEng (Hai)"
+			"Marauder Leviathan (Weapons - AlienTech)"
+			"Marauder Splinter (Weapons - AlienTech)"
+			"Marauder Manta (Engines)"
+			"Marauder Firebird (Weapons - AlienTech)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"
+		add variant 2
+			"KestrelEng (Hai)"
+			"Marauder Falcon (Engines - AlienTech)"
+			"Marauder Splinter (Engines)"
+			"Marauder Manta (Weapons - AlienTech)"
+			"Marauder Firebird (Engines)"
+			"Marauder Raven"
+			"Marauder Quicksilver"
+			"Marauder Arrow"
+			"Marauder Bounder"

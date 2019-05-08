@@ -18,6 +18,7 @@ ship "Kestrel" "KestrelEng (Particle)"
 		"Armageddon Core"
 		"S-970 Regenerator"
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelEng (Laser)"
 	add attributes
@@ -38,6 +39,7 @@ ship "Kestrel" "KestrelEng (Laser)"
 		"LP144a Battery Pack"
 		"Armageddon Core"
 		"S-970 Regenerator"
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelEng (Plasma)"
 	add attributes
@@ -59,6 +61,7 @@ ship "Kestrel" "KestrelEng (Plasma)"
 		"Plasma Cannon" 4
 		"Heavy Laser" 2
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelEng (Torp)"
 	add attributes
@@ -78,6 +81,7 @@ ship "Kestrel" "KestrelEng (Torp)"
 		"Armageddon Core"
 		"S-970 Regenerator"
 		"Torpedo Storage Rack" 6
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelEng (Hai)"
 	add attributes
@@ -103,6 +107,7 @@ ship "Kestrel" "KestrelEng (Hai)"
 		`"Benga" Atomic Steering`
 		"Geode Reactor"
 		"Tactical Scanner" 2
+		"Pulse Rifle" 128
 		
 		
 ship "Kestrel" "KestrelDef (Particle)"
@@ -125,6 +130,7 @@ ship "Kestrel" "KestrelDef (Particle)"
 		"Armageddon Core"
 		"S-970 Regenerator"
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelDef (Laser)"
 	add attributes
@@ -143,6 +149,7 @@ ship "Kestrel" "KestrelDef (Laser)"
 		"Armageddon Core"
 		"S-970 Regenerator"
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelDef (Plasma)"
 	add attributes
@@ -161,6 +168,7 @@ ship "Kestrel" "KestrelDef (Plasma)"
 		"S-970 Regenerator"
 		"Plasma Cannon" 6
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 
 ship "Kestrel" "KestrelDef (Torp)"
 	add attributes
@@ -180,6 +188,7 @@ ship "Kestrel" "KestrelDef (Torp)"
 		"Armageddon Core"
 		"S-970 Regenerator"
 		"Torpedo Storage Rack" 6
+		"Laser Rifle" 128
 		
 ship "Kestrel" "KestrelDef (Hai)"
 	add attributes
@@ -204,6 +213,7 @@ ship "Kestrel" "KestrelDef (Hai)"
 		"Geode Reactor"
 		`"Basrem" Atomic Steering`
 		"Tactical Scanner" 2
+		"Pulse Rifle" 128
 		
 ship "Kestrel" "KestrelWep (Particle)"
 	add attributes
@@ -223,6 +233,7 @@ ship "Kestrel" "KestrelWep (Particle)"
 		"S-970 Regenerator"
 		"Heavy Laser" 6
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 	gun -31 66 "Heavy Laser"
 	gun 31 66 "Heavy Laser"
 	gun -31 66 "Particle Cannon"
@@ -258,6 +269,7 @@ ship "Kestrel" "KestrelWep (Laser)"
 		"S-970 Regenerator"
 		"Heavy Laser" 6
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 	gun -31 66 "Heavy Laser"
 	gun 31 66 "Heavy Laser"
 	gun -31 66 "Heavy Laser"
@@ -292,6 +304,7 @@ ship "Kestrel" "KestrelWep (Plasma)"
 		"S-970 Regenerator"
 		"Plasma Cannon" 4
 		"LP288a Battery Pack"
+		"Laser Rifle" 128
 	gun -31 66 "Electron Beam"
 	gun 31 66 "Electron Beam"
 	gun -31 66 "Plasma Cannon"
@@ -325,6 +338,7 @@ ship "Kestrel" "KestrelWep (Torp)"
 		"LP144a Battery Pack"
 		"Armageddon Core"
 		"S-970 Regenerator"
+		"Laser Rifle" 128
 	gun -31 66
 	gun 31 66
 	gun -31 66 "Torpedo Launcher"
@@ -364,6 +378,7 @@ ship "Kestrel" "KestrelWep (Hai)"
 		"Geode Reactor"
 		`"Basrem" Atomic Steering`
 		"Tactical Scanner"
+		"Pulse Rifle" 128
 	gun -31 66 "Hai Tracker Pod"
 	gun 31 66 "Hai Tracker Pod"
 	gun -31 66 "Ion Cannon"
