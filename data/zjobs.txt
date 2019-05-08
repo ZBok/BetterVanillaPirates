@@ -226,7 +226,7 @@ mission "Southern Marauder Attack"
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
-			distance 2 2
+			distance 1 1
 	npc
 		government "Militia"
 		personality heroic staying launching
@@ -261,7 +261,7 @@ mission "Deep Marauder Attack"
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
-			distance 2 2
+			distance 1 1
 	npc
 		government "Deep Security"
 		personality heroic staying launching
@@ -297,7 +297,7 @@ mission "Northern Marauder Attack"
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
-			distance 2 2
+			distance 1 1
 	npc
 		government "Republic"
 		personality heroic staying launching
@@ -333,7 +333,7 @@ mission "Core Marauder Attack"
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
-			distance 2 2
+			distance 1 1
 	npc
 		government "Syndicate"
 		personality heroic staying launching
