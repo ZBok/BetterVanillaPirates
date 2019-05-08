@@ -1,7 +1,8 @@
 WIP
 
-Overall goal is to make combat in Human space much more interesting and challenging in the mid-late game.
-No new weapons/ships are added, all the content here is made from vanilla.
+Overall goal is to make combat jobs/missions in Human space more varied, interesting and challenging in the mid to late game. Also to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets as the player progresses.
+
+No new weapons/ships are added, just new missions/jobs, pirate Kestrels, new pirate fleet and outfit combinations.
 
 I made this because:
 
@@ -9,7 +10,7 @@ I made this because:
 
 - Human space combat missions (spaceport and jobs) currently don't scale very well into the late game, they aren't very good $$ and are somewhat boring once you obtain a large fleet.
 
-- I think pirate ships and merchant ships should use a bigger variety of weapon/engine/tech combinations, especially after the main storyline is completed.
+- I think pirate ships and merchant ships should use a bigger variety of weapon/engine/tech combinations, including Hai/Korath exile tech, especially after the main storyline is completed.
 
 - I want Bounty Hunters to be properly scary even for players with large fleets, and scale hard with combat rating.
 
@@ -17,7 +18,7 @@ I made this because:
 
 Current features:
 
-- Progressively introduces Hai+limited korath technology, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into existing ambient pirate/merchant fleets, Marauder mission targets, 15+ brand new combat missions, and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally) as the player progresses through the game.
+- Progressively introduces Hai+limited korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, Marauder mission targets, 15+ brand new combat missions, and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
 
 - These additions are done in line with the story - Pirate kestrels start appearing (in ambient fleets and as targets) when you unlock the Kestrel, and they appear with outfits corresponding to your Kestrel design choice. ie if you choose weapons, you're gonna see 18 gun pirate kestrels! Alien tech Marauders will only appear once you complete main storyline, and alien tech Kestrels added once you've completed both.
 

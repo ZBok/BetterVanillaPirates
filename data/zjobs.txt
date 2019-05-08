@@ -49,10 +49,10 @@ mission "Southern Marauder Blockade"
 		random < 10
 		"combat rating" > 8104
 	source
-		attributes south "rim"
+		attributes south rim
 	destination
 		distance 2 3
-		attributes south "rim"
+		attributes south rim
 	npc
 		government "Militia"
 		personality heroic launching
@@ -217,7 +217,6 @@ mission "Southern Marauder Attack"
 		"combat rating" > 8104
 		random < 7
 	source
-		attributes "frontier"
 		attributes rim south "dirt belt"
 	npc kill
 		government "Pirate"
@@ -288,7 +287,6 @@ mission "Northern Marauder Attack"
 		"combat rating" > 8104
 		random < 7
 	source
-		attributes "frontier"
 		attributes north paradise
 	npc kill
 		government "Pirate"
@@ -324,7 +322,6 @@ mission "Core Marauder Attack"
 		"combat rating" > 8104
 		random < 7
 	source
-		attributes "frontier"
 		attributes "core" "near earth"
 	npc kill
 		government "Pirate"
@@ -360,7 +357,6 @@ mission "Southern Marauder Blockade Attempt"
 		"combat rating" > 22027
 		random < 7
 	source
-		attributes "frontier"
 		attributes rim south "dirt belt"
 	npc kill
 		government "Pirate"
@@ -415,7 +411,6 @@ mission "Northern Marauder Blockade Attempt"
 		"combat rating" > 22027
 		random < 7
 	source
-		attributes "frontier"
 		attributes north paradise
 	npc kill
 		government "Pirate"
@@ -524,7 +519,6 @@ mission "Core Marauder Blockade Attempt"
 		"combat rating" > 22027
 		random < 7
 	source
-		attributes "frontier"
 		attributes "core" "near earth"
 	npc kill
 		government "Pirate"
