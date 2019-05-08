@@ -1,7 +1,19 @@
 WIP
 
-Overall goal is to make Human space combat more interesting and challenging in the mid-late game.
-No new weapons/ships are added, just extra variants and more challenging content.
+Overall goal is to make combat in Human space much more interesting and challenging in the mid-late game.
+No new weapons/ships are added, all the content here is made from vanilla.
+
+I made this because:
+
+- The kestrel is beautiful and I want to see more of it while playing the game.
+
+- Human space combat missions (spaceport and jobs) currently don't scale very well into the late game, they aren't very good $$ and are somewhat boring once you obtain a large fleet.
+
+- I think pirate ships and merchant ships should use a bigger variety of weapon/engine/tech combinations, especially after the main storyline is completed.
+
+- I want Bounty Hunters to be properly scary even for players with large fleets, and scale hard with combat rating.
+
+
 
 Current features:
 
