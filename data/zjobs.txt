@@ -357,7 +357,7 @@ mission "Southern Marauder Blockade Attempt"
 	minor
 	repeat
 	to offer
-		"combat rating" > 59875
+		"combat rating" > 22027
 		random < 7
 	source
 		attributes "frontier"
@@ -412,7 +412,7 @@ mission "Northern Marauder Blockade Attempt"
 	minor
 	repeat
 	to offer
-		"combat rating" > 59875
+		"combat rating" > 22027
 		random < 7
 	source
 		attributes "frontier"
@@ -467,7 +467,7 @@ mission "Deep Marauder Blockade Attempt"
 	minor
 	repeat
 	to offer
-		"combat rating" > 59875
+		"combat rating" > 22027
 		random < 7
 	source
 		attributes deep
@@ -521,7 +521,7 @@ mission "Core Marauder Blockade Attempt"
 	minor
 	repeat
 	to offer
-		"combat rating" > 59875
+		"combat rating" > 22027
 		random < 7
 	source
 		attributes "frontier"
