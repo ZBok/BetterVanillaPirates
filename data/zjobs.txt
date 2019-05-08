@@ -652,7 +652,7 @@ mission "Bounty Hunting (Marauder XX Trio)"
 		personality heroic unconstrained staying nemesis target
 		system
 			distance 1 3
-		fleet "Marauder fleet X" 3
+		fleet "Marauder fleet XX" 3
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on complete
 		payment 10000000
