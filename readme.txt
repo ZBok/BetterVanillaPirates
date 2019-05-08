@@ -29,13 +29,13 @@ Current features:
 
 - 15 Kestrel variants (5 for each Kestrel design choice)
 
-
+***To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher. Head to Human space, especially "frontier" systems, and spam spaceport/check job board.
 
 It is designed to be quite difficult at times even for large-ish fleets so take care.
 
 PLEASE make backups of your pilot file before using this plugin.
 
-To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher to see the all the new "invisible" bounty hunter missions.
+
 
 Working on adding the following:
 
