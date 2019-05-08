@@ -215,7 +215,7 @@ mission "Southern Marauder Attack"
 	repeat
 	to offer
 		"combat rating" > 8104
-		random < 7
+		random < 10
 	source
 		attributes rim south "dirt belt"
 	npc kill
@@ -250,7 +250,7 @@ mission "Deep Marauder Attack"
 	repeat
 	to offer
 		"combat rating" > 8104
-		random < 7
+		random < 10
 	source
 		attributes deep
 	npc kill
@@ -285,7 +285,7 @@ mission "Northern Marauder Attack"
 	repeat
 	to offer
 		"combat rating" > 8104
-		random < 7
+		random < 10
 	source
 		attributes north paradise
 	npc kill
@@ -320,7 +320,7 @@ mission "Core Marauder Attack"
 	repeat
 	to offer
 		"combat rating" > 8104
-		random < 7
+		random < 10
 	source
 		attributes "core" "near earth"
 	npc kill
@@ -355,7 +355,7 @@ mission "Southern Marauder Blockade Attempt"
 	repeat
 	to offer
 		"combat rating" > 22027
-		random < 7
+		random < 10
 	source
 		attributes rim south "dirt belt"
 	npc kill
@@ -409,7 +409,7 @@ mission "Northern Marauder Blockade Attempt"
 	repeat
 	to offer
 		"combat rating" > 22027
-		random < 7
+		random < 10
 	source
 		attributes north paradise
 	npc kill
@@ -463,7 +463,7 @@ mission "Deep Marauder Blockade Attempt"
 	repeat
 	to offer
 		"combat rating" > 22027
-		random < 7
+		random < 10
 	source
 		attributes deep
 	npc kill
@@ -517,7 +517,7 @@ mission "Core Marauder Blockade Attempt"
 	repeat
 	to offer
 		"combat rating" > 22027
-		random < 7
+		random < 10
 	source
 		attributes "core" "near earth"
 	npc kill
