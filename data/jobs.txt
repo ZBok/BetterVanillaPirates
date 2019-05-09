@@ -1,0 +1,120 @@
+# Repeating job board jobs.
+
+mission "Bounty Hunting (Marauder X)"
+	name "Hunt down the <npc>"
+	description "A pirate vessel named the <npc>, leading a large Marauder fleet, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 8105
+		random < 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet X"
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 1000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting (Marauder XX)"
+	name "Destroy Marauder Fleet"
+	description "A pirate vessel named the <npc>, leading a very powerful Marauder fleet, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 8105
+		random < 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX" 1
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 3000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting (Marauder X Trio)"
+	name "Destroy Marauder Fleet"
+	description "A huge Marauder fleet consisting of at least three Heavy Warships has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 22027
+		random < 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet X" 3
+		fleet "Large Core Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Southern Pirates"
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 6000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting (Marauder XX Trio)"
+	name "Destroy Marauder Fleet"
+	description "A gigantic Marauder fleet consisting of at least six Heavy Warships has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 22027
+		random < 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX" 3
+		fleet "Large Core Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Southern Pirates"
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 12000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting Mega"
+	name "Destroy Marauder Fleet"
+	description "An armada of Marauder vessels consisting of at least ten Heavy Warships and dozens of smaller craft, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 59875
+		random < 25
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX" 5
+		fleet "Large Core Pirates" 5
+		fleet "Large Northern Pirates" 5
+		fleet "Large Southern Pirates" 5
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 25000000
+		dialog phrase "generic fleet bounty hunting payment dialog"

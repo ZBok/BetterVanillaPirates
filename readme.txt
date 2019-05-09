@@ -5,7 +5,7 @@ The overall goal is to make combat jobs/missions in Human space more varied, int
 
 Current features:
 
-- Adds 20+ repeating combat missions/jobs with tonnes of variety in human space, complete with corresponding regional NPC assistance in many cases (more incoming). Some of these involve gigantic fleet battles so take care!
+- Adds 25+ repeating combat missions/jobs with tonnes of variety in human space, complete with corresponding regional NPC assistance in many cases (more incoming). Some of these involve gigantic fleet battles so take care!
 
 - Progressively introduces Hai+limited korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
 
@@ -13,7 +13,7 @@ Current features:
 
 - Introduces pirates in ships they don't normally use, such as the Protector, Vanguard, Osprey, Aerie, Mule, immediately into the game, in correct regions. Pirates in military ships including Dreadnought, Skein, Frigate are added after main story completion. You'll see these extremely rarely in ambient fleets and as mission targets. (potentially more incoming)
 
-- Two new invisible "Marauder Hunted" missions involving very large fleets that will hunt you down.
+- Three new invisible "Marauder Hunted" missions involving very large fleets that will hunt you down.
 
 - 10+ new Marauder variants (existing pirate ships with new outfit combinations) used in missions and bounty hunters
 

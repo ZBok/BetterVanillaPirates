@@ -67,3 +67,24 @@ fleet "Marauder fleet XX"
 		"Marauder Quicksilver (Weapons)"
 		"Marauder Arrow (Engines)"
 		"Marauder Bounder (Weapons)"
+		
+# Used in spaceport job variants	
+	
+fleet "Elite Bactrian Merchants"
+	variant 1
+		"Bactrian (Hai Weapons)" 1
+		"Dagger" 3
+		
+fleet "Elite Gunboats"
+	variant 1
+		"Gunboat"
+		
+fleet "Elite Leviathans"
+	variant 1
+		"Leviathan (Hai Weapons)"
+		
+fleet "Elite Vanguards"
+	variant 1
+		"Vanguard"
+	variant 1
+		"Vanguard (Particle)"
