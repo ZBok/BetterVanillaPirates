@@ -5,23 +5,23 @@ The overall goal is to make combat jobs/missions in Human space more varied, int
 
 Current features:
 
-- Adds 15+ high end repeating combat missions such as new Planetary Defence, Destroy Nearby Blockade and Fleet Hunt jobs in human space, complete with corresponding regional NPC assistance in many cases (more incoming)
+- Adds 20+ repeating combat missions/jobs with tonnes of variety in human space, complete with corresponding regional NPC assistance in many cases (more incoming). Some of these involve gigantic fleet battles so take care!
 
 - Progressively introduces Hai+limited korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
 
-- These additions are done in line with the story - Pirate kestrels start appearing (in ambient fleets and as targets) when you unlock the Kestrel, and they appear in the form corresponding to your Kestrel design choice and with custom outfits ie if you choose weapons, you're gonna see a host of different 18 gun pirate kestrels! Alien tech Marauders will only appear once you complete main storyline, and alien tech Kestrels added once you've completed both.
+- These additions are done in line with the story - Pirate kestrels start appearing (in ambient fleets and as targets) when you unlock the Kestrel, and they appear in the form corresponding to your Kestrel design choice and with custom outfits ie if you choose weapons, you're gonna see a host of different 18 gun pirate kestrels! Alien tech Marauders, and Hai fitted merchants in human space, will only appear once you complete main storyline, and alien tech Kestrels added once you've completed both main storyline + kestrel missions.
 
 - Introduces pirates in ships they don't normally use, such as the Protector, Vanguard, Osprey, Aerie, Mule, immediately into the game, in correct regions. Pirates in military ships including Dreadnought, Skein, Frigate are added after main story completion. You'll see these extremely rarely in ambient fleets and as mission targets. (potentially more incoming)
 
 - Two new invisible "Marauder Hunted" missions involving very large fleets that will hunt you down.
 
-- 10+ new Marauder variants (existing pirate ships with new outfit combinations)
+- 10+ new Marauder variants (existing pirate ships with new outfit combinations) used in missions and bounty hunters
 
 - 15 Kestrel variants (5 for each Kestrel design choice)
 
 
 
-***To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher. Head to Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunted fleets coming to hunt you down!
+***To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher. Head to any Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down!
 
 It is designed to be quite difficult at times even for large-ish fleets so take care.
 

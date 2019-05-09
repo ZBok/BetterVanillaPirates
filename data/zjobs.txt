@@ -575,6 +575,236 @@ mission "Core Marauder Blockade Attempt"
 		payment 10000000
 		dialog phrase "generic pirate attack payment dialog"
 		
+mission "Deep Marauder Blockade Attempt 2"
+	name "Defend <planet>"
+	description "Defeat a Marauder blockade attempt on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 59875
+		random < 8
+	source
+		attributes deep
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 1 1
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 2 2
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 3 3
+	npc
+		government "Deep Security"
+		personality heroic staying launching
+		fleet "Large Deep Security" 6
+	npc
+		government "Deep Security"
+		personality heroic
+		fleet "Large Deep Security" 6
+		system
+			distance 1 1
+	on offer
+		conversation
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Deep Security officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large Deep Security fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("Let's do this! What's the plan?")`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+				launch
+	on complete
+		payment 20000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+		
+mission "North Marauder Blockade Attempt 2"
+	name "Defend <planet>"
+	description "Defeat a Marauder blockade attempt on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 59875
+		random < 8
+	source
+		attributes north paradise
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 1 1
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 2 2
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 3 3
+	npc
+		government "Republic"
+		personality heroic staying launching
+		fleet "Large Republic" 3
+	npc
+		government "Republic"
+		personality heroic
+		fleet "Large Republic" 3
+		system
+			distance 1 1
+	on offer
+		conversation
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Republic officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large Republic fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("Let's do this! What's the plan?")`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+				launch
+	on complete
+		payment 20000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "South Marauder Blockade Attempt 2"
+	name "Defend <planet>"
+	description "Defeat a Marauder blockade attempt on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 59875
+		random < 8
+	source
+		attributes south rim "dirt belt"
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 1 1
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 2 2
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 3 3
+	npc
+		government "Militia"
+		personality heroic staying launching
+		fleet "Large Militia" 5
+	npc
+		government "Militia"
+		personality heroic
+		fleet "Large Militia" 5
+		system
+			distance 1 1
+	on offer
+		conversation
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior militia officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large militia fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("Let's do this! What's the plan?")`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+				launch
+	on complete
+		payment 20000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Core Marauder Blockade Attempt 2"
+	name "Defend <planet>"
+	description "Defeat a Marauder blockade attempt on <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 59875
+		random < 8
+	source
+		attributes "core" "near earth"
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 1 1
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 2 2
+	npc kill
+		government "Pirate"
+		personality heroic target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X" 2
+		fleet "Marauder fleet XX" 2
+		system
+			distance 3 3
+	npc
+		government "Syndicate"
+		personality heroic staying launching
+		fleet "Large Syndicate" 5
+	npc
+		government "Syndicate"
+		personality heroic
+		fleet "Large Syndicate" 5
+		system
+			distance 1 1
+	on offer
+		conversation
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Syndicate officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large Syndicate fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("Let's do this! What's the plan?")`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+				launch
+	on complete
+		payment 20000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+		
 mission "Bounty Hunting (Marauder X)"
 	name "Hunt down the <npc>"
 	description "A pirate vessel named the <npc>, leading a large Marauder fleet, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
@@ -646,7 +876,7 @@ mission "Bounty Hunting (Marauder X Trio)"
 		
 mission "Bounty Hunting (Marauder XX Trio)"
 	name "Destroy Marauder Fleet"
-	description "A gigantic Marauder fleet consisting of at least six Heavy Warships have been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	description "A gigantic Marauder fleet consisting of at least six Heavy Warships, have been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
 	repeat
 	job
 	to offer
@@ -667,4 +897,29 @@ mission "Bounty Hunting (Marauder XX Trio)"
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on complete
 		payment 12000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+		
+mission "Bounty Hunting Mega"
+	name "Destroy Marauder Fleet"
+	description "An armada of Marauder vessels, consisting of at least nine Heavy Warships and dozens of smaller craft, have been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 59875
+		random < 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained staying nemesis target
+		system
+			distance 1 3
+		fleet "Marauder fleet XX" 5
+		fleet "Large Core Pirates" 5
+		fleet "Large Northern Pirates" 5
+		fleet "Large Southern Pirates" 5
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on complete
+		payment 25000000
 		dialog phrase "generic fleet bounty hunting payment dialog"
