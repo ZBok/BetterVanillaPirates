@@ -1,5 +1,5 @@
 # The following three missions check if the player has finished the Kestrel missions and if so,
-# runs an event to add the particular Kestrel model chosen to various fleets.
+# runs an event to add several new variants of the particular Kestrel model chosen to various fleets.
 
 
 mission "Add KestrelWep"

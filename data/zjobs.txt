@@ -10,6 +10,7 @@ mission "Marauder Hunted Two"
 		government "Republic" "Syndicate" "Free Worlds" "Neutral"
 	to offer
 		"combat rating" > 59875
+		"combat rating" < 162755
 		random < 3
 	to complete
 		never
@@ -39,7 +40,8 @@ mission "Marauder Hunted Three"
 		system
 			distance 5 5
 		fleet "Marauder fleet XX" 3
-		
+				
+
 mission "Southern Marauder Blockade"
 	name `Marauder fleet blockading <system>`
 	minor
@@ -192,7 +194,7 @@ mission "Core Marauder Blockade"
 		government "Pirate"
 		personality heroic staying target harvests plunders
 		system destination
-		fleet "Large Southern Pirates" 3
+		fleet "Large Core Pirates" 3
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 	on offer
@@ -361,6 +363,7 @@ mission "Southern Marauder Blockade Attempt"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
+		fleet "Large Southern Pirates" 3
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
@@ -415,6 +418,7 @@ mission "Northern Marauder Blockade Attempt"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
@@ -469,6 +473,7 @@ mission "Deep Marauder Blockade Attempt"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
+		fleet "Large Northern Pirates" 3
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
@@ -523,6 +528,7 @@ mission "Core Marauder Blockade Attempt"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
+		fleet "Large Core Pirates" 3
 		fleet "Marauder fleet X"
 		fleet "Marauder fleet XX"
 		system
