@@ -189,7 +189,7 @@ mission "Core Marauder Blockade"
 	npc
 		government "Syndicate"
 		personality heroic launching
-		fleet "Large Syndicate" 1
+		fleet "Large Syndicate"
 	npc
 		government "Syndicate"
 		personality heroic staying
@@ -341,7 +341,7 @@ mission "Core Marauder Attack"
 	npc
 		government "Syndicate"
 		personality heroic staying launching
-		fleet "Large Syndicate" 3
+		fleet "Large Syndicate" 2
 	on offer
 		conversation
 			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! We have received intelligence that a large pirate force including several Marauders is en route to attack this system. We have assembled all combat ships currently available but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
@@ -616,7 +616,7 @@ mission "Bounty Hunting (Marauder XX)"
 		fleet "Marauder fleet XX" 1
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on complete
-		payment 2500000
+		payment 3000000
 		dialog phrase "generic fleet bounty hunting payment dialog"
 		
 mission "Bounty Hunting (Marauder X Trio)"
@@ -636,6 +636,9 @@ mission "Bounty Hunting (Marauder X Trio)"
 		system
 			distance 1 3
 		fleet "Marauder fleet X" 3
+		fleet "Large Core Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Southern Pirates"
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on complete
 		payment 5000000
@@ -658,7 +661,10 @@ mission "Bounty Hunting (Marauder XX Trio)"
 		system
 			distance 1 3
 		fleet "Marauder fleet XX" 3
+		fleet "Large Core Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Southern Pirates"
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on complete
-		payment 10000000
+		payment 12000000
 		dialog phrase "generic fleet bounty hunting payment dialog"
