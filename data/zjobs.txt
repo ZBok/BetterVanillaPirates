@@ -41,7 +41,7 @@ mission "Marauder Hunted Three"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
 			distance 5 5
-		fleet "Marauder fleet XX" 3
+		fleet "Marauder fleet XX" 2
 		fleet "Large Northern Pirates" 2
 		fleet "Large Southern Pirates" 2
 		fleet "Large Core Pirates" 2
