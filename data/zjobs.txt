@@ -588,7 +588,7 @@ mission "Deep Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Northern Pirates" 3
+		fleet "Large Northern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -596,7 +596,7 @@ mission "Deep Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Northern Pirates" 3
+		fleet "Large Northern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -604,7 +604,7 @@ mission "Deep Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Northern Pirates" 3
+		fleet "Large Northern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -612,16 +612,16 @@ mission "Deep Marauder Blockade Attempt 2"
 	npc
 		government "Deep Security"
 		personality heroic staying launching
-		fleet "Large Deep Security" 6
+		fleet "Large Deep Security" 5
 	npc
 		government "Deep Security"
 		personality heroic
-		fleet "Large Deep Security" 6
+		fleet "Large Deep Security" 5
 		system
 			distance 1 1
 	on offer
 		conversation
-			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Deep Security officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large Deep Security fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Deep Security officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have a large Deep Security fleet about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
 			choice
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
@@ -646,7 +646,7 @@ mission "North Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Northern Pirates" 3
+		fleet "Large Northern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -654,7 +654,7 @@ mission "North Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Northern Pirates" 3
+		fleet "Large Northern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -662,7 +662,7 @@ mission "North Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Northern Pirates" 3
+		fleet "Large Northern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -679,7 +679,7 @@ mission "North Marauder Blockade Attempt 2"
 			distance 1 1
 	on offer
 		conversation
-			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Republic officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large Republic fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Republic officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have a large Republic fleet about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
 			choice
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
@@ -703,7 +703,7 @@ mission "South Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Southern Pirates" 3
+		fleet "Large Southern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -711,7 +711,7 @@ mission "South Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Southern Pirates" 3
+		fleet "Large Southern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -719,7 +719,7 @@ mission "South Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Southern Pirates" 3
+		fleet "Large Southern Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -736,7 +736,7 @@ mission "South Marauder Blockade Attempt 2"
 			distance 1 1
 	on offer
 		conversation
-			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior militia officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large militia fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior militia officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have a large militia fleet about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
 			choice
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
@@ -760,7 +760,7 @@ mission "Core Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Core Pirates" 3
+		fleet "Large Core Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -768,7 +768,7 @@ mission "Core Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Core Pirates" 3
+		fleet "Large Core Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -776,7 +776,7 @@ mission "Core Marauder Blockade Attempt 2"
 	npc kill
 		government "Pirate"
 		personality heroic target harvests plunders
-		fleet "Large Core Pirates" 3
+		fleet "Large Core Pirates" 5
 		fleet "Marauder fleet X" 2
 		fleet "Marauder fleet XX" 2
 		system
@@ -793,7 +793,7 @@ mission "Core Marauder Blockade Attempt 2"
 			distance 1 1
 	on offer
 		conversation
-			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Syndicate officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have large Syndicate fleets about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
+			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior Syndicate officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have a large Syndicate fleet about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`
 			choice
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
