@@ -20,7 +20,9 @@ mission "Marauder Hunted Two"
 		system
 			distance 5 5
 		fleet "Marauder fleet XX"
-		fleet "Marauder fleet X"
+		fleet "Large Northern Pirates"
+		fleet "Large Southern Pirates"
+		fleet "Large Core Pirates"
 		
 mission "Marauder Hunted Three"
 	invisible
@@ -40,6 +42,9 @@ mission "Marauder Hunted Three"
 		system
 			distance 5 5
 		fleet "Marauder fleet XX" 3
+		fleet "Large Northern Pirates" 2
+		fleet "Large Southern Pirates" 2
+		fleet "Large Core Pirates" 2
 				
 
 mission "Southern Marauder Blockade"
