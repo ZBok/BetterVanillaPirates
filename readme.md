@@ -2,9 +2,9 @@
 
 This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. It achieves this by the adding the following:
 
-- 25+ new combat missions (jobs and spaceport) with tonnes of variety and weird low-chance variations in human space, complete with corresponding regional NPC assistance in many cases (more incoming). These new missions range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
+- 25+ new combat missions (jobs and spaceport) with tonnes of variety and weird low-chance variations in human space, complete with corresponding regional NPC assistance in many cases (more incoming). These new missions range include multiple wave planetary defence, pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
 
-- Progressively introduces Hai+limited korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
+- Progressively introduces Hai+limited korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as  described above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
 
 - Introduces pirates in ships they don't normally use, such as the Protector, Vanguard, Osprey, Aerie, Mule, in correct regions. Pirates in military ships including Dreadnought, Skein, Frigate, Gunboat are added after main story completion. You'll see these extremely rarely in ambient fleets and as mission targets. (potentially more incoming)
 
