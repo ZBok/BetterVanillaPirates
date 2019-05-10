@@ -1,3 +1,1 @@
-This plugin is focused on adding more pirate outfit variety, including the Kestrel, into ambient NPC fleets and mission targets, and introducing much more challenging and varied late game combat missions in human space.
-
-It is designed to be tough. Take care!
+The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game. Also to add a lot more variety to NPC fleets (both pirate and merchant) in general and to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described in the readme file.

@@ -1,6 +1,8 @@
-WIP. This plugin does not contain any new weapons/ships/sprites, or any new or replacement storylines. It is designed to enhance/improve the vanilla game in Human space, especially in the late-game, while keeping a completely vanilla feel.
+#Vanilla Pirate Upgrade for Endless Sky (nightly)
 
-The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game. Also to add a lot more variety to NPC fleets (both pirate and merchant) in general and to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described below.
+This plugin is designed to enhance/improve the vanilla game in Human space, especially in the late-game, while keeping a completely vanilla feel. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. 
+
+##The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game. Also to add a lot more variety to NPC fleets (both pirate and merchant) in general and to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described below.
 
 ---With this plugin installed, your game will be identical everywhere early game, except you'll see pirates in more ships that they don't use in vanilla, like Aerie/Mule/Vanguard (no military ships yet).
 
@@ -10,7 +12,7 @@ The overall goal is to make combat jobs/missions in Human space more varied, int
 
 ---After you complete the main storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see see alien tech fit Marauder fleets in the new missions as described above.
 
----After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. Kestrels will also be seen occasionally in the missions described above.
+---After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. Kestrels will also be seen occasionally in the missions described above.
 
 ---After you complete both main storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
 
@@ -33,7 +35,7 @@ Current features:
 
 
 
-***To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher. Head to any Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down!
+##To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher. Head to any Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down!
 
 It is designed to be quite difficult at times even for large-ish fleets so take care.
 
