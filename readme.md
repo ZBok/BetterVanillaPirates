@@ -1,6 +1,6 @@
 # Better Pirates Upgrade for Endless Sky (nightly build)
 
-This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. It achieves this by the adding the following:
+This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. It achieves this by the adding the following:
 
 - 25+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions range from multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
 
@@ -22,11 +22,11 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - As your combat rating continues to increase, tougher and more varied Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression.
 
-- After you complete the main storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see see alien tech fit Marauder fleets in the new missions as described above.
+- After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see see alien tech fit Marauder fleets in the new missions as described above.
 
 - After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels! Kestrels will also be seen occasionally in the missions described above.
 
-- After you complete both main storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
+- After you complete both the main FW storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
 
 - No other changes from vanilla are made.
 
