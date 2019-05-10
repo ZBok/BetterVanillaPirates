@@ -31,7 +31,7 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 - No other changes from vanilla are made.
 
 
-## To test fully, use a pilot with the Kestrel missions completed and a combat rating of 12 or higher. Head to any Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down!
+## To test fully, use a pilot with the Kestrel missions completed and a combat rating of 13 or higher. Head to any Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down!
 
 It is designed to be quite difficult at times even for large-ish fleets so take care.
 
