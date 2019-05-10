@@ -1,8 +1,8 @@
-# Vanilla Pirate Upgrade for Endless Sky (nightly)
+#Vanilla Pirate Upgrade for Endless Sky (nightly)
 
 This plugin is designed to enhance/improve the vanilla game in Human space, especially in the late-game, while keeping a completely vanilla feel. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. 
 
-## The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game. Also to add a lot more variety to NPC fleets (both pirate and merchant) in general and to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described below.
+##The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game. Also to add a lot more variety to NPC fleets (both pirate and merchant) in general and to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described below.
 
 ---With this plugin installed, your game will be identical everywhere early game, except you'll see pirates in more ships that they don't use in vanilla, like Aerie/Mule/Vanguard (no military ships yet).
 
