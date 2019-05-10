@@ -1,6 +1,6 @@
 WIP. This plugin does not contain any new weapons/ships/sprites, it is designed to enhance/improve the vanilla game in human space.
 
-The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game, and to add a lot more variety to NPC fleets (both pirate and merchant) in general. Also to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described below.
+The overall goal is to make combat jobs/missions in Human space more varied, interesting and scale better into the late game, without changing the existing storyline. Also to add a lot more variety to NPC fleets (both pirate and merchant) in general and to add the Kestrel, and alien tech outfitted pirates, to missions, ambient fleets (both pirate and others) and bounty hunter fleets. All the changes described are made in line with regular progression through the storyline as described below.
 
 
 Current features:

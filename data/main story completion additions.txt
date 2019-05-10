@@ -199,6 +199,7 @@ event "Add Reg AlienTech"
 			"Dagger"
 		add variant 1
 			"Mule (Hai Weapons)"
+			"Dagger"
 		add variant 3
 			"Hauler (Hai)" 2
 			"Hauler II (Hai)"
@@ -247,6 +248,47 @@ event "Add Reg AlienTech"
 			"Hauler III (Hai)"
 		add variant 2
 			"Hauler III (Hai)" 2
+		add variant 1
+			"Mule (Hai Engines)" 2
+			"Dagger" 2
+		add variant 1
+			"Mule (Hai Weapons)" 2
+			"Dagger" 2
+			
+	fleet "Small Deep Merchants"
+		add variant 1
+			"Mule (Hai Engines)"
+			"Dagger"
+		add variant 1
+			"Mule (Hai Weapons)"
+			"Dagger"
+		add variant 1
+			"Mule (Hai Weapons)"
+			"Dagger"
+			"Headhunter (Hai)"
+		add variant 1
+			"Flivver (Hai)"
+		add variant 1
+			"Headhunter (Hai)"
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"Bactrian (Hai Weapons)"
+			"Dagger" 3
+			"Mule (Hai Weapons)" 2
+			"Dagger" 2
+		add variant 1
+			"Bactrian (Hai Engines)"
+			"Dagger" 3
+			"Mule (Hai Engines)" 2
+			"Dagger" 2
+		add variant 2
+			"Star Queen (Hai)"
+			"Headhunter (Hai)" 2
+		add variant 2
+			"Star Queen (Hai)"
+			"Aerie" 2
+			"Dagger" 4
 			
 	fleet "Small Core Pirates"
 		add variant 1
@@ -276,6 +318,13 @@ event "Add Reg AlienTech"
 			"Firebird (Hai Weapons)"
 		add variant 1
 			"Leviathan (Hai Weapons)"
+	fleet "Large Southern Pirates"
+		add variant 1
+			"Mule (Hai Engines)"
+			"Dagger"
+		add variant 1
+			"Mule (Hai Weapons)"
+			"Dagger"
 			
 	fleet "Large Southern Pirates"
 		add variant 1
@@ -295,5 +344,18 @@ event "add military pirates"
 	fleet "Large Northern Pirates"
 		add variant 1
 			"Frigate"
+		add variant 2
+			"Rainmaker (Mark II)"
+		add variant 2
+			"Gunboat (Mark II)"
+		add variant 2
+			"Rainmaker"
+		add variant 2
+			"Gunboat"
 		add variant 1
-			"Frigate (Mark II)"
+			"Cruiser"
+			"Combat Drone" 4
+		add variant 1
+			"Carrier"
+			"Lance" 4
+			"Combat Drone" 6

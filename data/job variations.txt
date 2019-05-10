@@ -1,3 +1,5 @@
+# region specific mission variations to keep things interesting and fun
+
 mission "Deep Marauder Blockade Attempt 2 (Var1)"
 	name "Defend <planet>"
 	description "Defeat a Marauder blockade attempt on <destination>."
