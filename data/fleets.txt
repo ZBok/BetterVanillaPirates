@@ -71,19 +71,42 @@ fleet "Marauder fleet XX"
 # Used in spaceport job variants	
 	
 fleet "Elite Bactrian Merchants"
+	government "Merchant"
+	names "civilian"
+	cargo 2
+	personality
+		heroic frugal
+		confusion 20
 	variant 1
 		"Bactrian (Hai Weapons)" 1
 		"Dagger" 3
 		
 fleet "Elite Gunboats"
+	government "Republic"
+	names "republic small"
+	cargo 0
+	personality
+		heroic opportunistic
 	variant 1
 		"Gunboat"
 		
 fleet "Elite Leviathans"
+	government "Merchant"
+	names "civilian"
+	cargo 0
+	personality
+		heroic frugal
+		confusion 20
 	variant 1
 		"Leviathan (Hai Weapons)"
 		
 fleet "Elite Vanguards"
+	government "Syndicate"
+	names "syndicate capital"
+	fighters "syndicate fighter"
+	cargo 2
+	personality
+		heroic
 	variant 1
 		"Vanguard"
 	variant 1

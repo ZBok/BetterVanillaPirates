@@ -248,9 +248,8 @@ mission "Southern Marauder Blockade Attempt 2 (Var1)"
 		fleet "Elite Leviathans"
 	npc
 		government "Merchant"
-		personality heroic
+		personality heroic staying entering
 		fleet "Elite Leviathans" 4
-			distance 1 1
 	on offer
 		conversation
 			`The spaceport is a flurry of activity, over a dozen combat ships are being prepped for launch, others are already taking off. "Captain <last>?" You turn to see a serious looking senior militia officer. "A gigantic pirate armada, one of the biggest we've seen, is converging on this sytem and expected to arrive any moment now. We have a large militia fleet about to arrive to assist but we will still not match the pirate fleet in numbers. Would you be willing to help?"`

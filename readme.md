@@ -1,5 +1,7 @@
 # Better Pirates Upgrade for Endless Sky (nightly build)
 
+# Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting/badass, and stayed challenging with worthwhile mission payouts even in the late game?
+
 This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. It achieves this by the adding the following:
 
 - 25+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
