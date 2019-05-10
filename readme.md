@@ -22,7 +22,7 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - As your combat rating continues to increase, tougher and more varied Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression.
 
-- After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see see alien tech fit Marauder fleets in the new missions as described above.
+- After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see alien tech fit Marauder fleets in the new missions as described above.
 
 - After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels! Kestrels will also be seen occasionally in the missions described above.
 
