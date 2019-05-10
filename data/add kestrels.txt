@@ -114,6 +114,10 @@ event "Add Kestrels (Wep)"
 		add variant 1
 			"Star Queen"
 			"KestrelWep (Plasma)"
+			
+	fleet "Large Southern Merchants"
+		add variant 1
+			"KestrelWep (Laser)"
 
 	fleet "Large Core Merchants"
 		add variant 1
@@ -122,6 +126,15 @@ event "Add Kestrels (Wep)"
 		add variant 1
 			"Bulk Freighter" 4
 			"KestrelWep (Laser)"
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"KestrelWep (Laser)"
+			"Bactrian"
+			"Dagger" 3
+		add variant 1
+			"Star Queen"
+			"KestrelWep (Plasma)"
 			
 	fleet "Large Human Merchants (Hai)"
 		add variant 1
@@ -217,6 +230,10 @@ event "Add Kestrels (Tank)"
 			"Star Queen"
 			"KestrelDef (Plasma)"
 			
+	fleet "Large Southern Merchants"
+		add variant 1
+			"KestrelDef (Laser)"
+			
 	fleet "Large Core Merchants"
 		add variant 1
 			"Bulk Freighter (Heavy)" 2
@@ -224,6 +241,15 @@ event "Add Kestrels (Tank)"
 		add variant 1
 			"Bulk Freighter" 4
 			"KestrelDef (Laser)"
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"KestrelDef (Laser)"
+			"Bactrian"
+			"Dagger" 3
+		add variant 1
+			"Star Queen"
+			"KestrelDef (Plasma)"
 			
 	fleet "Large Human Merchants (Hai)"
 		add variant 1
@@ -318,6 +344,10 @@ event "Add Kestrels (Eng)"
 		add variant 1
 			"Star Queen"
 			"KestrelEng (Plasma)"
+			
+	fleet "Large Southern Merchants"
+		add variant 1
+			"KestrelEng (Laser)"
 	
 	fleet "Large Core Merchants"
 		add variant 1
@@ -326,6 +356,15 @@ event "Add Kestrels (Eng)"
 		add variant 1
 			"Bulk Freighter" 4
 			"KestrelEng (Laser)"
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"KestrelEng (Laser)"
+			"Bactrian"
+			"Dagger" 3
+		add variant 1
+			"Star Queen"
+			"KestrelEng (Plasma)"
 
 	fleet "Large Human Merchants (Hai)"
 		add variant 1
