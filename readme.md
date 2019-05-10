@@ -2,7 +2,7 @@
 
 This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. It achieves this by the adding the following:
 
-- 25+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases (more incoming). These new missions range multiple wave planetary defence, pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
+- 25+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions range from multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
 
 - Progressively introduces Hai+limited Korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as  described above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
 
@@ -39,5 +39,5 @@ Please make backups of your pilot file before using this plugin.
 
 Working on adding the following:
 
-- More low-chance mission variants
+- More mission variety and low-chance variants
 - much more NPC ship/outfit combination variety
