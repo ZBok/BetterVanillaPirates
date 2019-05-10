@@ -18,7 +18,7 @@ mission "Bounty Hunting (Marauder X)"
 		random < 30
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
-		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier" "deep" "paradise"
 	npc kill
 		government "Bounty"
 		personality heroic unconstrained staying nemesis target
@@ -40,7 +40,7 @@ mission "Bounty Hunting (Marauder XX)"
 		random < 30
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
-		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier" "deep" "paradise"
 	npc kill
 		government "Bounty"
 		personality heroic unconstrained staying nemesis target
@@ -62,7 +62,7 @@ mission "Bounty Hunting (Marauder X Trio)"
 		random < 30
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
-		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier" "deep" "paradise"
 	npc kill
 		government "Bounty"
 		personality heroic unconstrained staying nemesis target
@@ -87,7 +87,7 @@ mission "Bounty Hunting (Marauder XX Trio)"
 		random < 30
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
-		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier" "deep" "paradise"
 	npc kill
 		government "Bounty"
 		personality heroic unconstrained staying nemesis target
@@ -112,7 +112,7 @@ mission "Bounty Hunting Mega"
 		random < 25
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
-		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier" "deep" "paradise"
 	npc kill
 		government "Bounty"
 		personality heroic unconstrained staying nemesis target
