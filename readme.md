@@ -33,13 +33,11 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 - No other changes from vanilla are made.
 
 
-## To test fully, use a pilot with the Kestrel missions and FW story completed and a combat rating of 13 or higher. Head to any Human (non-pirate) planet, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down! You should also notice a wider array of ambient NPC shiptypes and outfit combinations flying around and duking it out.
-
-## Seeing the occasional pirate Armada (mission) or Bounty Hunter fleet, or even ambient pirate fleet, being headed up by a Bact, Carrier, Kestrel or Dreadnought is epic!
+## To test fully, use a pilot with the Kestrel missions and FW story completed and a combat rating of 13 or higher. Head to any Human (non-pirate) planet, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down! You should also notice a wider array of ambient NPC shiptypes and outfit combinations flying around and duking it out. Seeing the occasional pirate Armada (mission) or Bounty Hunter fleet, or even ambient pirate fleet, being headed up by a Bact, Carrier, Kestrel or Dreadnought is epic!
 
 It is designed to be quite difficult at times even for large-ish fleets so take care.
 
-# Please make backups of your pilot file before using this plugin. The changes this plugin makes to vanilla fleets (adding pirates/merchants with Hai tech, adding pirate/merchant Kestrels, etc) are stored in your save file. If you remove the plugin, it may not work anymore. Backup your pilot file just in case you don't like this plugin!
+Please make backups of your pilot file before using this plugin. The changes this plugin makes to vanilla fleets (adding pirates/merchants with Hai tech, adding pirate/merchant Kestrels, etc) are stored in your save file. If you remove the plugin, it may not work anymore. Backup your pilot file just in case you don't like this plugin!
 
 Working on adding the following:
 
