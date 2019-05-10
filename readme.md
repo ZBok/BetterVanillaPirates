@@ -31,7 +31,7 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 - No other changes from vanilla are made.
 
 
-## To test fully, use a pilot with the Kestrel missions and FW story completed and a combat rating of 13 or higher. Head to any Human space, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down!
+## To test fully, use a pilot with the Kestrel missions and FW story completed and a combat rating of 13 or higher. Head to any Human (non-pirate) planet, and spam spaceport/check job board. Watch out for the new Bounty Hunter fleets coming to hunt you down! You should also notice a wider array of ambient NPC shiptypes and outfit combinations flying around and duking it out.
 
 ## Seeing the occasional pirate Armada (mission) or Bounty Hunter fleet, or even ambient pirate fleet, being headed up up by a Bact, Carrier, Kestrel or Dreadnought is epic!
 
