@@ -20,7 +20,7 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - Once your combat rating gets past 9 (or if it is already), you'll start to see much more difficult combat jobs/spaceport missions, over 25 region specific variations, all over human space, vs new pirate fleet compositions. These missions, while already super varied, will see more variation in pirate ships and outfits as the main FW storyline and kestrel missions are completed, more detail on that below. The most difficult jobs also have low-chance variations with extra cool NPC assistance :D
 
-- As your combat rating continues to increase, tougher and more varied Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression.
+- As your combat rating continues to increase, tougher and more varied Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression. Tougher spaceport/job board missions will be unlocked at each combat rating from 9 to 13 inclusively.
 
 - After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see alien tech fit Marauder fleets in the new missions as described above.
 
