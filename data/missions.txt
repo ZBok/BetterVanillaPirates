@@ -784,7 +784,7 @@ mission "Deep Marauder Blockade Attempt 2"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 				launch
 	on complete
 		payment 20000000
@@ -842,7 +842,7 @@ mission "North Marauder Blockade Attempt 2"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 				launch
 	on complete
 		payment 20000000
@@ -899,7 +899,7 @@ mission "South Marauder Blockade Attempt 2"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 				launch
 	on complete
 		payment 20000000
@@ -956,7 +956,7 @@ mission "Core Marauder Blockade Attempt 2"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 				launch
 	on complete
 		payment 20000000
