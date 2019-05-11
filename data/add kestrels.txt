@@ -1,5 +1,6 @@
 # The following three missions check if the player has finished the Kestrel missions and if so,
 # runs an event to add several new variants of the particular Kestrel model chosen to various fleets.
+# The addition to Marauder fleet XX keeps overall fleet strength very similar, by removing either a falcon or leviathan for the Kestrel
 
 
 mission "Add KestrelWep"

@@ -1,4 +1,5 @@
 #add alien kestrels/marauders to "Marauder fleet XX" if both main storyline and kestrel missions are completed
+#this addition keeps overall fleet strength similar, by removing either a falcon or leviathan for the Kestrel
 
 mission "Add KestrelWep AlienTech"
 	invisible
