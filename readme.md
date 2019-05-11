@@ -1,10 +1,12 @@
 # Better Pirates Upgrade for Endless Sky (nightly build)
 
-## Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting/badass, and stayed challenging with worthwhile mission payouts even in the late game?
+## Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting, and stayed challenging with worthwhile mission payouts even in the late game?
 
-This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines. It achieves this by the adding the following:
+This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines, nor does it make the early game any harder. It achieves this by the adding the following:
 
-- 25+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
+- 30+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. The most difficult of these involve low-chance unusual variations with extra NPC assistance! Some of these involve gigantic fleet battles so take care!
+
+- No existing missions/jobs are altered, just new ones are added. All new jobs are repeating and can be declined at no penalty.
 
 - Progressively introduces Hai+limited Korath outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as  described above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
 
@@ -20,7 +22,7 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - With this plugin installed, your game will be completely vanilla everywhere early game, except you'll see pirates in more ships that they don't use in vanilla, like Aerie/Mule/Vanguard (no military ships yet).
 
-- Once your combat rating gets past 9 (or if it is already), you'll start to see much more difficult combat jobs/spaceport missions, over 25 region specific variations, all over human space, vs new pirate fleet compositions. These missions, while already super varied, will see more variation in pirate ships and outfits as the main FW storyline and kestrel missions are completed, more detail on that below. The most difficult jobs also have low-chance variations with extra cool NPC assistance :D
+- Once your combat rating gets past 9 (or if it is already), you'll start to see much more difficult combat jobs/spaceport missions, over 30 region specific variations, all over human space, vs new pirate fleet compositions. These missions, while already super varied, will see more variation in pirate ships and outfits as the main FW storyline and kestrel missions are completed, more detail on that below. The most difficult jobs also have low-chance variations with extra cool NPC assistance :D
 
 - As your combat rating continues to increase, tougher and more varied (up to a CR of 13) Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression. Tougher spaceport/job board missions will be unlocked at each combat rating from 9 to 11.
 

@@ -529,6 +529,210 @@ mission "Core Marauder Blockade Attempt"
 		payment 10000000
 		dialog phrase "generic pirate attack payment dialog"
 		
+mission "Core Marauder Fleet Clear"
+	name "Clear Marauder Fleets"
+	description "Clear Marauder fleets within two jumps of <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 22027
+		random < 8
+	source
+		attributes "core" "near earth"
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Core Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc
+		government "Syndicate"
+		personality heroic escort launching
+		fleet "Large Syndicate" 2
+	on offer
+		conversation
+			`You notice many damaged combat vessels coming in to land, and a few medics tending to wounded people. "Captain <last>?" You turn to see a serious looking senior Syndicate officer. "This system and others nearby have just been hit by a large surprise pirate attack. Our intelligence suggests approximately ten heavy warships and dozens of smaller craft have now split into three fleets to continue the attack on nearby systems up to two jumps away. They need to be eliminated immediately. Can you help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("I'm ready and willing!")`
+			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
+				launch
+	on complete
+		payment 10000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Southern Marauder Fleet Clear"
+	name "Clear Marauder Fleets"
+	description "Clear Marauder fleets within two jumps of <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 22027
+		random < 8
+	source
+		attributes south rim "dirt belt"
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Southern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc
+		government "Militia"
+		personality heroic escort launching
+		fleet "Large Militia" 3
+	on offer
+		conversation
+			`You notice many damaged combat vessels coming in to land, and a few medics tending to wounded people. "Captain <last>?" You turn to see a serious looking senior militia officer. "This system and others nearby have just been hit by a large surprise pirate attack. Our intelligence suggests approximately ten heavy warships and dozens of smaller craft have now split into three fleets to continue the attack on nearby systems up to two jumps away. They need to be eliminated immediately. Can you help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("I'm ready and willing!")`
+			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
+				launch
+	on complete
+		payment 10000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Northern Marauder Fleet Clear"
+	name "Clear Marauder Fleets"
+	description "Clear Marauder fleets within two jumps of <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 22027
+		random < 8
+	source
+		attributes north paradise
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc
+		government "Republic"
+		personality heroic escort launching
+		fleet "Large Republic" 2
+	on offer
+		conversation
+			`You notice many damaged combat vessels coming in to land, and a few medics tending to wounded people. "Captain <last>?" You turn to see a serious looking senior Republic officer. "This system and others nearby have just been hit by a large surprise pirate attack. Our intelligence suggests approximately ten heavy warships and dozens of smaller craft have now split into three fleets to continue the attack on nearby systems up to two jumps away. They need to be eliminated immediately. Can you help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("I'm ready and willing!")`
+			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
+				launch
+	on complete
+		payment 10000000
+		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Deep Marauder Fleet Clear"
+	name "Clear Marauder Fleets"
+	description "Clear Marauder fleets within two jumps of <destination>."
+	minor
+	repeat
+	to offer
+		"combat rating" > 22027
+		random < 8
+	source
+		attributes deep
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		fleet "Large Northern Pirates" 3
+		fleet "Marauder fleet X"
+		fleet "Marauder fleet XX"
+		system
+			distance 1 2
+	npc
+		government "Deep Security"
+		personality heroic escort launching
+		fleet "Large Deep Security" 3
+	on offer
+		conversation
+			`You notice many damaged combat vessels coming in to land, and a few medics tending to wounded people. "Captain <last>?" You turn to see a serious looking senior Deep Security officer. "This system and others nearby have just been hit by a large surprise pirate attack. Our intelligence suggests approximately ten heavy warships and dozens of smaller craft have now split into three fleets to continue the attack on nearby systems up to two jumps away. They need to be eliminated immediately. Can you help?"`
+			choice
+				`	("I'm sorry I've got other things to do right now.")`
+					decline
+				`	("I'm ready and willing!")`
+			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
+				launch
+	on complete
+		payment 10000000
+		dialog phrase "generic pirate attack payment dialog"
+		
 mission "Deep Marauder Blockade Attempt 2"
 	name "Defend <planet>"
 	description "Defeat a Marauder blockade attempt on <destination>."
@@ -758,7 +962,7 @@ mission "Core Marauder Blockade Attempt 2"
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
 		
-mission "Core Marauder Fleet Clear"
+mission "Core Marauder Fleet Clear 2"
 	name "Clear Marauder Fleets"
 	description "Clear Marauder fleets within two jumps of <destination>."
 	minor
@@ -809,7 +1013,7 @@ mission "Core Marauder Fleet Clear"
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
 		
-mission "Northern Marauder Fleet Clear"
+mission "Northern Marauder Fleet Clear 2"
 	name "Clear Marauder Fleets"
 	description "Clear Marauder fleets within two jumps of <destination>."
 	minor
@@ -860,7 +1064,7 @@ mission "Northern Marauder Fleet Clear"
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
 		
-mission "Southern Marauder Fleet Clear"
+mission "Southern Marauder Fleet Clear 2"
 	name "Clear Marauder Fleets"
 	description "Clear Marauder fleets within two jumps of <destination>."
 	minor
@@ -911,7 +1115,7 @@ mission "Southern Marauder Fleet Clear"
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
 		
-mission "Deep Marauder Fleet Clear"
+mission "Deep Marauder Fleet Clear 2"
 	name "Clear Marauder Fleets near <planet>"
 	description "Clear Marauder fleets within two jumps of <destination>."
 	minor
