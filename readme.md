@@ -1,4 +1,4 @@
-# Better Pirates Upgrade for Endless Sky (nightly build)
+# Better Vanilla Pirates for Endless Sky (nightly build)
 
 ## Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting, and stayed challenging with worthwhile mission payouts even in the late game?
 
