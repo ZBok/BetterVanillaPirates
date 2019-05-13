@@ -58,7 +58,7 @@ mission "Bounty Hunting (Marauder X Trio)"
 	repeat
 	job
 	to offer
-		"combat rating" > 22027
+		"combat rating" > 15000
 		random < 30
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
