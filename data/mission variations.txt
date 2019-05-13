@@ -55,7 +55,7 @@ mission "Deep Marauder Blockade Attempt 2 (Var1)"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 			choice
 				`	("Thanks!")`
 			`As you make ready for a quick launch, you hear a voice call "I've got your back Captain!" The voice is coming from a young and inexperienced looking merchant captain with aviator sunglasses, standing near a shiny new Bactrian.`
@@ -123,7 +123,7 @@ mission "Deep Marauder Blockade Attempt 2 (Var2)"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 			choice
 				`	("Thanks!")`
 			`As you make ready for a quick launch, you notice a captain nearby directing crew to a group of four Bactrians, all looking like they've seen their fair share of battles and toting what seems to be alien weaponry, quite a lot of it in fact.`
@@ -188,7 +188,7 @@ mission "Northern Marauder Blockade Attempt 2 (Var1)"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 			choice
 				`	("Thanks!")`
 			`As you make ready for a quick launch, you notice a squadron of eight Gunboats taking off together, flying in tight formation and looking like they've seen their fair share of laser fire.`
@@ -257,7 +257,7 @@ mission "Southern Marauder Blockade Attempt 2 (Var1)"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 			choice
 				`	("Thanks!")`
 			`As you make ready for a quick launch, you notice a captain running to a Leviathan toting what looks to be alien weaponry, quite a lot of it in fact. The captain catches your eye and shouts "Good luck captain, four more Leviathans of mine are en route and will be assisting in the defence. We'll see you on other side.`
@@ -322,7 +322,7 @@ mission "Core Marauder Blockade Attempt 2 (Var1)"
 				`	("I'm sorry I've got other things to do right now.")`
 					decline
 				`	("Let's do this! What's the plan?")`
-			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least ten heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
+			`As combat ships continue to launch with an alarming disregard for safety checklists, the officer continues, "The hostile fleets total at least fifteen heavy warships, several marauders, and dozens of smaller craft. They are currently incoming from varying locations and the first will be arriving any moment, as will our own reinforcements. Take off immediately and prepare for the assault. Good luck!"`
 			choice
 				`	("Thanks!")`
 			`As you make ready for a quick launch, you notice a squadron of beautiful Vanguards taking off together, flying in tight formation.`

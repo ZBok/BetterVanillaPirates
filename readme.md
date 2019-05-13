@@ -22,7 +22,7 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - With this plugin installed, your game will be completely vanilla everywhere early game, except you'll see pirates in more ships that they don't use in vanilla, like Aerie/Mule/Vanguard (no military ships yet).
 
-- Once your combat rating gets past 9 (or if it is already), you'll start to see much more difficult combat jobs/spaceport missions, over 30 region specific variations, all over human space, vs new pirate fleet compositions. These missions, while already super varied, will see more variation in pirate ships and outfits as the main FW storyline and kestrel missions are completed, more detail on that below. The most difficult jobs also have low-chance variations with extra cool NPC assistance :D
+- Once your combat rating gets past 9 (or if it is already), you'll start to see much more difficult combat jobs/spaceport missions, over 30 region specific variations, all over human space, vs new pirate fleet compositions. These missions start off with lots of enemy variety but will see more variation pirate ships and outfits as the main FW storyline and kestrel missions are completed, more detail on that below. The most difficult jobs also have low-chance variations with extra cool NPC assistance :D
 
 - As your combat rating continues to increase, tougher and more varied (up to a CR of 13) Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression. Tougher spaceport/job board missions will be unlocked at each combat rating from 9 to 11.
 
