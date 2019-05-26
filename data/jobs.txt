@@ -31,7 +31,7 @@ mission "Southern Marauder Blockade"
 		fleet "Marauder fleet XX"
 	on offer
 		conversation
-			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
+			`You notice a militia officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the locals and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
 			choice
 				`	(Don't join the militia fleet.)`
 					decline
@@ -73,7 +73,7 @@ mission "Northern Marauder Blockade"
 		fleet "Marauder fleet XX"
 	on offer
 		conversation
-			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
+			`You notice a Republic officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the locals and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
 			choice
 				`	(Don't join the Republic fleet.)`
 					decline
@@ -115,7 +115,7 @@ mission "Deep Marauder Blockade"
 		fleet "Marauder fleet XX"
 	on offer
 		conversation
-			`You notice a Deep Security officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
+			`You notice a Deep Security officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the locals and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
 			choice
 				`	(Don't join the Deep Security fleet.)`
 					decline
@@ -157,7 +157,7 @@ mission "Core Marauder Blockade"
 		fleet "Marauder fleet XX"
 	on offer
 		conversation
-			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the local militia and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
+			`You notice a Syndicate officer hurriedly briefing a group of pilots nearby. The officer catches your eye and exclaims: "Captain <last>! A large pirate fleet including several Marauders is blockading <destination>. We are sending all currently available combat vessels immediately to assist the locals and break the blockade, but we are barely able to match their numbers and could use your help. Will you join us?" The authorities of <planet> will probably pay you quite well if you assist them, but the mention of several Marauders makes you think twice...`
 			choice
 				`	(Don't join the Syndicate fleet.)`
 					decline
