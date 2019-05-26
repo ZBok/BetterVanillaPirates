@@ -30,13 +30,15 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see alien tech fit Marauder fleets in the new missions as described above.
 
-- After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels! Kestrels will also be seen occasionally in the missions described above.
+- After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels that actually use them all! Kestrels will also be seen occasionally in the missions described above.
 
 - After you complete both the main FW storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
 
 - No other changes from vanilla are made.
 
 
-It is designed to be quite difficult at times even for large fleets so take care. You may find that human missiles become a serious problem in large numbers, with the serious impact force making it easy to isolate and kill your escorts, anti-missile turrets may come in handy!
+It is designed to be quite difficult at times even for large fleets so take care. You may find that human missiles become a serious problem in large numbers, with the large impact force capable of isolating and destroying your escorts with ease, anti-missile turrets may come in very handy!
 
-Please make backups of your pilot file before using this plugin. The changes this plugin makes to fleets (adding pirates/merchants with Hai tech, adding pirate/merchant Kestrels, etc) are stored in your save file. If you remove the plugin, it may not work anymore. Backup your pilot file just in case you don't like this plugin!
+Please make backups of your pilot file before using this plugin. The changes this plugin makes to fleets (adding pirates/merchants with Hai tech, adding pirate/merchant Kestrels, etc) are stored in your save file. If you remove the plugin, it may not work anymore. Backup your pilot file just in case you don't like this plugin.
+
+Enjoy!
