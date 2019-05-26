@@ -14,7 +14,7 @@ event "Add Absent Pirate Ships"
 			"Fury"
 		add variant 1
 			"Osprey"
-			"Fury"
+			"Sparrow"
 		add variant 1
 			"Osprey (Missile)"
 		add variant 1
@@ -56,23 +56,17 @@ event "Add Absent Pirate Ships"
 			"Dagger" 2
 	
 	fleet "Large Northern Pirates"
-		add variant 5
+		add variant 2
 			"Aerie"
 			"Dagger" 2
 			"Corvette"
-		add variant 3
+		add variant 2
 			"Aerie"
 			"Dagger" 2
 			"Raven"
 		add variant 3
 			"Aerie" 2
 			"Dagger" 4
-		add variant 1
-			"Bactrian"
-			"Dagger" 3
-			"Raven"
-			"Aerie"
-			"Dagger" 2
 		add variant 2
 			"Aerie"
 			"Dagger" 2
@@ -83,7 +77,7 @@ event "Add Absent Pirate Ships"
 			"Firebird"
 		add variant 2
 			"Mule"
-			"Dagger"
+			"Lance"
 		add variant 2
 			"Mule (Heavy)"
 			"Dagger"

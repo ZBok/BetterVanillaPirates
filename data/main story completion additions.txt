@@ -1,5 +1,6 @@
 # Three additions are made here on completion of main storyline, intended to give more variety to a wide range of NPC fleets.
-# 1) Adds new Hai/Korath exile tech fitted Leviathan/Falcon/Splinter/Manta/Firebird variants to "Marauder fleet X" (the standard Marauder fleet that sometimes hunts you) and "Marauder fleet XX" (the new Marauder fleet defined in this plugin for use in various new missions). This addition keeps overall fleet strength very similar.
+# The addition of alien tech human ships after FW completion is not meant to be indicative of any particular Hai/Human interaction event, just that I feel it's a nice place for the average player to start seeing alien tech, and it makes sense to me that both merchants and pirates will occasionally get their hands on Hai/Korath exile tech.
+# 1) Adds new Hai/Korath exile tech fitted Leviathan/Falcon/Splinter/Manta/Firebird variants to "Marauder fleet X" (the standard Marauder fleet that sometimes hunts you) and "Marauder fleet XX" (the new Marauder fleet defined in this plugin for use in various new missions). Thie former addition keeps overall fleet strength very similar.
 # 2) It also adds a wide variety of Hai fit human vessels to various ambient fleets, friendly and hostile.
 # 3) It also adds the chance of pirates appearing in a wider range of ships/variants, including Military ships.
 

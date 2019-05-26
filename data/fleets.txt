@@ -68,8 +68,6 @@ fleet "Marauder fleet XX"
 		"Marauder Arrow (Engines)"
 		"Marauder Bounder (Weapons)"
 		
-# Used in spaceport job variants	
-	
 fleet "Elite Bactrian Merchants"
 	government "Merchant"
 	names "civilian"
