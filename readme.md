@@ -4,6 +4,8 @@
 
 This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines, nor does it make the early game any harder. It achieves all this by the adding the following:
 
+- Now adds Korath Automata raids on Syndicate space after the Korath Exiles start producing automata. You can now farm Sestor/Mereti ships post Wanderer storyline!
+
 - 30+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. Some of these involve gigantic fleet battles so take care!
 
 - Note that no existing missions/jobs are altered, just new ones are added. All new jobs are repeating and can be declined with no penalty.
