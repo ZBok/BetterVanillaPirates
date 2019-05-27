@@ -1,5 +1,6 @@
 # A more difficult and varied version of the "Marauder fleet X". No alien tech or Kestrels yet, these are added later as requirements are met.
 # This is used for jobs, spaceport missions, and Bounty Hunted invisible missions.
+# Korath Automata raider fleet added.
 
 fleet "Marauder fleet XX"
 	government "Pirate"
@@ -67,7 +68,64 @@ fleet "Marauder fleet XX"
 		"Marauder Quicksilver (Weapons)"
 		"Marauder Arrow (Engines)"
 		"Marauder Bounder (Weapons)"
-		
+
+fleet "Korath Raid - Automata"
+	government "Korath"
+	names "korath"
+	fighters "korath"
+	cargo 1
+	personality
+		disables plunders opportunistic harvests
+	variant 2
+		"Tek Far 71 - Lek (Jump)"
+		"Far Lek 14" 6
+	variant 2
+		"Tek Far 71 - Lek (Close Quarters - Jump)"
+		"Far Lek 14" 4
+	variant 2
+		"Tek Far 78 - Osk (Close Quarters - Jump)"
+		"Far Osk 27" 5
+	variant 2
+		"Tek Far 78 - Osk (Jump)"
+		"Far Osk 27" 2
+	variant 3
+		"Tek Far 109 (Jump)"
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+	variant 3
+		"Met Par Tek 53 (Jump)" 3
+	variant 2
+		"Met Par Tek 53 (Sniper - Jump)" 3
+	variant
+		"Kar Ik Vot 349 (Jump)"
+	variant
+		"Kar Ik Vot 349 (Defense - Jump)"
+	variant
+		"Kar Ik Vot 349 (Offense - Jump)"
+	variant
+		"Kar Ik Vot 349 (Trapper - Jump)"
+	variant 1
+		"Model 512 (Jump)"
+	variant 2
+		"Model 512 (Jump)"
+		"Model 256 (Jump)"
+	variant 2
+		"Model 256 (Jump)"
+	variant 2
+		"Model 256 (Jump)"
+		"Model 64 (Jump)" 2
+	variant 2
+		"Model 128 (Jump)" 2
+	variant 2
+		"Model 64 (Jump)"
+		"Model 32 (Jump)" 3
+	variant 3
+		"Model 64 (Jump)" 2
+		"Model 32 (Jump)" 3
+	variant 4
+		"Model 32 (Jump)"
+		"Model 16 (Jump)" 5
+
 fleet "Elite Bactrian Merchants"
 	government "Merchant"
 	names "civilian"

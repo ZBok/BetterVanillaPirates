@@ -1497,6 +1497,40 @@ mission "Core Marauder Blockade Attempt 2 (Var1)"
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
 
+mission "Raider Attack - Automata"
+	name "Defend <planet>"
+	description "Defeat an alien raid on <destination>."
+	minor
+	repeat
+	to offer
+		random < 15
+		has "Wanderers: Sestor: Final: done"
+	source
+		planet "Sundive"
+		planet "Shangri-La"
+		planet "Nimbus"
+	npc evade
+		government "Korath"
+		personality target timid unconstrained uninterested harvests plunders
+		fleet "Korath Raid - Automata" 3
+		fleet "Korath Raid" 2
+	npc
+		government "Syndicate"
+		personality heroic staying vindictive
+		fleet "Large Syndicate" 2
+	on offer
+		conversation
+			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by alien raiders! We need every combat-worthy ship to join the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
+			choice
+				`	(Stay here until the fight is over.)`
+					decline
+				`	(Join the defense fleet.)`
+			`The local Syndicate defense forces are preparing to repel the alien attack. You join them, and take off together...`
+				launch
+	on complete
+		payment 1000000
+		dialog `The government of <planet> pays you <payment> for helping to drive off the raiders.`
+
 phrase "generic big hunted bounty fleet eliminated dialog"
 	word
 		`The Marauder fleet has been eliminated. You can claim the bounty payment by returning to <destination>.`
