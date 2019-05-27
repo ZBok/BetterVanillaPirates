@@ -2,7 +2,7 @@
 
 ## Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting, and stayed challenging with worthwhile mission payouts even in the late game?
 
-This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines, nor does it make the early game any harder. It achieves all this by the adding the following:
+This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines, nor does it make the early game any harder. It achieves all this by the adding the following (POTENTIAL SPOILERS BELOW!)
 
 - *NEW* Now adds Korath Automata raid missions (spaceport) on certain Syndicate systems after the Korath Exiles start producing automata. Just like the Raider Attack missions in vanilla, just with Automata. You can now farm Sestor/Mereti ships post Wanderer storyline!
 
@@ -35,6 +35,8 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 - After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels that actually use them all! Kestrels will also be seen occasionally in the missions described above.
 
 - After you complete both the main FW storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
+
+- Once you complete the Wanderer missions where the Korath Exiles begin using Sestor/Mereti automata as their own, some Syndicate systems will offer spaceport defence missions where the Korath are raiding the system with JD equipped automata! The payouts for these missions are relatively low, but they allow the player to obtain Sestor/Mereti ships after the Wanderer campaign (not possible in vanilla).
 
 - No other changes from vanilla are made.
 
