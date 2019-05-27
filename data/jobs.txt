@@ -1503,7 +1503,7 @@ mission "Raider Attack - Automata"
 	minor
 	repeat
 	to offer
-		random < 15
+		random < 25
 		has "Wanderers: Sestor: Final: done"
 	source
 		planet "Sundive"
@@ -1511,9 +1511,9 @@ mission "Raider Attack - Automata"
 		planet "Nimbus"
 	npc evade
 		government "Korath"
-		personality target timid unconstrained uninterested harvests plunders
-		fleet "Korath Raid - Automata" 3
-		fleet "Korath Raid" 2
+		personality target unconstrained uninterested harvests plunders
+		fleet "Korath Raid - Automata" 4
+		fleet "Korath Raid" 1
 	npc
 		government "Syndicate"
 		personality heroic staying vindictive
