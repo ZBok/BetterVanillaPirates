@@ -167,3 +167,12 @@ fleet "Elite Vanguards"
 		"Vanguard"
 	variant 1
 		"Vanguard (Particle)"
+
+fleet "Marauder Vanguards"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders
+	variant 1
+		"Marauder Vanguard" 5

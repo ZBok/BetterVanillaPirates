@@ -1,0 +1,15 @@
+ship "Vanguard" "Marauder Vanguard"
+	outfits
+		"Particle Cannon" 7
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"LP072a Battery Pack"
+		"S-970 Regenerator"
+		"S-270 Regenerator"
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Laser Rifle" 23
+		"Outfits Expansion" 2
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		Hyperdrive

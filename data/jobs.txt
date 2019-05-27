@@ -1680,7 +1680,7 @@ mission "Marauder Hunted Two"
 		fleet "Large Northern Pirates"
 		fleet "Large Southern Pirates"
 		fleet "Large Core Pirates"
-		
+
 mission "Marauder Hunted Three"
 	invisible
 	landing
@@ -1725,3 +1725,22 @@ mission "Marauder Hunted Four"
 		fleet "Large Northern Pirates" 4
 		fleet "Large Southern Pirates" 4
 		fleet "Large Core Pirates" 4
+
+mission "Marauder Hunted - Elite Vanguards"
+	invisible
+	landing
+	repeat
+	destination "Earth"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral"
+	to offer
+		"combat rating" > 59875
+		random < 3
+	to complete
+		never
+	npc save
+		government "Bounty Hunter"
+		personality heroic unconstrained waiting nemesis plunders harvests
+		system
+			distance 5 5
+		fleet "Marauder Vanguards"
