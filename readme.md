@@ -14,11 +14,11 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - Additions described above that are based on storyline completion or Kestrel mission completion are applied retroactively. This means that you'll see all the changes on a save where you've completed these already, at least after you land once or twice post plugin install.
 
-- Three new invisible "Marauder Hunted" missions. As your combat rating gets very high, you will see much tougher Bounty Hunter fleets occasionally hunt you down.
+- Many new variations of the "Marauder Hunted" missions. As your combat rating gets very high, you will see much tougher Bounty Hunter fleets occasionally hunt you down. These come in two distinct flavours - small, homogeneous fleets of elite heavy warships with customised outfit combinations, and larger rag-tag fleets including all types of ships.
 
 - *NEW* Now adds Korath Automata raid missions (spaceport) on certain Syndicate systems after the Korath Exiles start producing automata. Just like the Raider Attack missions in vanilla, just with Automata. You can now farm Sestor/Mereti ships post Wanderer storyline!
 
-- 10+ new Marauder variants (existing pirate ships with new outfit combinations) used in missions and bounty hunter fleets.
+- Dozens of new pirate variants (new outfit combinations for existing ships).
 
 - 18 Kestrel variants (6 for each Kestrel design choice) used in missions, bounty hunter/Marauder fleets, and in ambient Merchant/Pirate fleets.
 
