@@ -91,6 +91,10 @@ event "Add Kestrels (Wep)"
 			"Marauder Arrow (Engines)"
 			"Marauder Bounder (Weapons)"
 			
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"KestrelWep (Electron)" 4
+			
 	fleet "Large Northern Pirates"
 		add variant 1
 			"KestrelWep (Laser)"
@@ -205,7 +209,11 @@ event "Add Kestrels (Tank)"
 			"Marauder Quicksilver (Weapons)"
 			"Marauder Arrow (Engines)"
 			"Marauder Bounder (Weapons)"
-			
+
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"KestrelDef (Electron)" 4
+
 	fleet "Large Northern Pirates"
 		add variant 1
 			"KestrelDef (Laser)"
@@ -320,6 +328,10 @@ event "Add Kestrels (Eng)"
 			"Marauder Quicksilver (Weapons)"
 			"Marauder Arrow (Engines)"
 			"Marauder Bounder (Weapons)"
+
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"KestrelEng (Electron)" 4
 
 	fleet "Large Northern Pirates"
 		add variant 1

@@ -168,11 +168,22 @@ fleet "Elite Vanguards"
 	variant 1
 		"Vanguard (Particle)"
 
-fleet "Marauder Vanguards"
+fleet "Elite Bounty Hunters"
 	government "Pirate"
 	names "pirate"
 	cargo 1
 	personality
 		plunders
+	variant 2
+		"Elite Vanguard" 5
+	variant 2
+		"Elite Bactrian" 4
+		"Barb (Proton)" 12
 	variant 1
-		"Marauder Vanguard" 5
+		"Marauder Falcon (Engines)" 4
+	variant 1
+		"Marauder Falcon (Weapons)" 4
+	variant 1
+		"Marauder Leviathan (Engines)" 4
+	variant 1
+		"Marauder Leviathan (Weapons)" 4

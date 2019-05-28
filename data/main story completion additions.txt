@@ -114,6 +114,17 @@ event "add alien tech marauders"
 			"Marauder Quicksilver (Weapons)"
 			"Marauder Arrow (Engines)"
 			"Marauder Bounder (Weapons)"
+
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"Elite Vanguard (Alien)" 5
+		add variant 2
+			"Elite Bactrian (Alien)" 4
+			"Violin Spider (Pulse)" 12
+		add variant 1
+			"Marauder Falcon (Weapons - AlienTech)" 4
+		add variant 1
+			"Marauder Leviathan (Weapons - AlienTech)" 4
 			
 event "Add Reg AlienTech"
 	fleet "Small Southern Merchants"

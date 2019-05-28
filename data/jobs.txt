@@ -1669,6 +1669,7 @@ mission "Marauder Hunted Two"
 		"combat rating" > 59875
 		"combat rating" < 162755
 		not "Marauder Hunted Two: active"
+		not "Elite Marauder Hunted: active"
 		random < 3
 	to complete
 		never
@@ -1693,6 +1694,7 @@ mission "Marauder Hunted Three"
 		"combat rating" > 162755
 		"combat rating" < 442414
 		not "Marauder Hunted Three: active"
+		not "Elite Marauder Hunted: active"
 		random < 3
 	to complete
 		never
@@ -1716,6 +1718,7 @@ mission "Marauder Hunted Four"
 	to offer
 		"combat rating" > 442414
 		not "Marauder Hunted Four: active"
+		not "Elite Marauder Hunted: active"
 		random < 3
 	to complete
 		never
@@ -1729,7 +1732,7 @@ mission "Marauder Hunted Four"
 		fleet "Large Southern Pirates" 4
 		fleet "Large Core Pirates" 4
 
-mission "Marauder Hunted - Elite Vanguards"
+mission "Elite Marauder Hunted"
 	invisible
 	landing
 	repeat
@@ -1738,7 +1741,10 @@ mission "Marauder Hunted - Elite Vanguards"
 		government "Republic" "Syndicate" "Free Worlds" "Neutral"
 	to offer
 		"combat rating" > 59875
-		not "Marauder Hunted - Elite Vanguards: active"
+		not "Elite Marauder Hunted: active"
+		not "Marauder Hunted Two: active"
+		not "Marauder Hunted Three: active"
+		not "Marauder Hunted Four: active"
 		random < 3
 	to complete
 		never
@@ -1747,4 +1753,4 @@ mission "Marauder Hunted - Elite Vanguards"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
 			distance 5 5
-		fleet "Marauder Vanguards"
+		fleet "Elite Bounty Hunters"

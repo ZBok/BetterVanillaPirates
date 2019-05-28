@@ -71,7 +71,11 @@ event "Add Alien Kestrels (Wep)"
 			"Marauder Quicksilver"
 			"Marauder Arrow"
 			"Marauder Bounder"
-			
+
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"KestrelWep (Hai)" 4
+
 	fleet "Large Northern Pirates"
 		add variant 1
 			"KestrelWep (Hai)"
@@ -148,7 +152,11 @@ event "Add Alien Kestrels (Def)"
 			"Marauder Quicksilver"
 			"Marauder Arrow"
 			"Marauder Bounder"
-			
+
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"KestrelDef (Hai)" 4
+
 	fleet "Large Northern Pirates"
 		add variant 1
 			"KestrelDef (Hai)"
@@ -224,7 +232,11 @@ event "Add Alien Kestrels (Eng)"
 			"Marauder Quicksilver"
 			"Marauder Arrow"
 			"Marauder Bounder"
-			
+
+	fleet "Elite Bounty Hunters"
+		add variant 2
+			"KestrelEng (Hai)" 4
+
 	fleet "Large Northern Pirates"
 		add variant 1
 			"KestrelEng (Hai)"
