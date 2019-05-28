@@ -4,8 +4,6 @@
 
 This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines, nor does it make the early game any harder. It achieves all this by the adding the following (POTENTIAL SPOILERS BELOW!)
 
-- *NEW* Now adds Korath Automata raid missions (spaceport) on certain Syndicate systems after the Korath Exiles start producing automata. Just like the Raider Attack missions in vanilla, just with Automata. You can now farm Sestor/Mereti ships post Wanderer storyline!
-
 - 30+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. Some of these involve gigantic fleet battles so take care!
 
 - Note that no existing missions/jobs are altered, just new ones are added. All new jobs are repeating and can be declined with no penalty.
@@ -17,6 +15,8 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 - Additions described above that are based on storyline completion or Kestrel mission completion are applied retroactively. This means that you'll see all the changes on a save where you've completed these already, at least after you land once or twice post plugin install.
 
 - Three new invisible "Marauder Hunted" missions. As your combat rating gets very high, you will see much tougher Bounty Hunter fleets occasionally hunt you down.
+
+- *NEW* Now adds Korath Automata raid missions (spaceport) on certain Syndicate systems after the Korath Exiles start producing automata. Just like the Raider Attack missions in vanilla, just with Automata. You can now farm Sestor/Mereti ships post Wanderer storyline!
 
 - 10+ new Marauder variants (existing pirate ships with new outfit combinations) used in missions and bounty hunter fleets.
 
