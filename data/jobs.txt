@@ -1668,6 +1668,7 @@ mission "Marauder Hunted Two"
 	to offer
 		"combat rating" > 59875
 		"combat rating" < 162755
+		not "Marauder Hunted Two: active"
 		random < 3
 	to complete
 		never
@@ -1691,6 +1692,7 @@ mission "Marauder Hunted Three"
 	to offer
 		"combat rating" > 162755
 		"combat rating" < 442414
+		not "Marauder Hunted Three: active"
 		random < 3
 	to complete
 		never
@@ -1713,6 +1715,7 @@ mission "Marauder Hunted Four"
 		government "Republic" "Syndicate" "Free Worlds" "Neutral"
 	to offer
 		"combat rating" > 442414
+		not "Marauder Hunted Four: active"
 		random < 3
 	to complete
 		never
@@ -1735,6 +1738,7 @@ mission "Marauder Hunted - Elite Vanguards"
 		government "Republic" "Syndicate" "Free Worlds" "Neutral"
 	to offer
 		"combat rating" > 59875
+		not "Marauder Hunted - Elite Vanguards: active"
 		random < 3
 	to complete
 		never
