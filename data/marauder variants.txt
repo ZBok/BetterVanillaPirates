@@ -17,7 +17,6 @@ ship "Marauder Falcon" "Marauder Falcon (Engines - AlienTech)"
 		"Pulse Rifle" 80
 		"Security Station"
 		"Outfits Expansion" 2
-		"Quantum Keystone"
 		"A860 Atomic Thruster"
 		"A865 Atomic Steering"
 		Hyperdrive
@@ -51,7 +50,6 @@ ship "Marauder Falcon" "Marauder Falcon (Weapons - AlienTech)"
 		"Outfits Expansion" 3
 		"Pulse Rifle" 80
 		"Security Station"
-		"Quantum Keystone"
 		"A520 Atomic Thruster"
 		`"Bufaer" Atomic Steering`
 		Hyperdrive
@@ -86,7 +84,6 @@ ship "Marauder Leviathan" "Marauder Leviathan (Engines - AlienTech)"
 		"Outfits Expansion" 2
 		"Pulse Rifle" 69
 		"Security Station"
-		"Quantum Keystone"
 		"A860 Atomic Thruster"
 		"A865 Atomic Steering"
 		Hyperdrive
@@ -120,7 +117,6 @@ ship "Marauder Leviathan" "Marauder Leviathan (Weapons - AlienTech)"
 		"Pulse Rifle" 69
 		"Security Station"
 		"Catalytic Ramscoop"
-		"Quantum Keystone"
 		"Ionic Afterburner"
 		"A370 Atomic Thruster"
 		"A525 Atomic Steering"
@@ -153,7 +149,6 @@ ship "Marauder Firebird" "Marauder Firebird (Engines - AlienTech)"
 		"Outfits Expansion"
 		"Pulse Rifle" 25
 		"Security Station"
-		"Quantum Keystone"
 		"A370 Atomic Thruster"
 		`"Bufaer" Atomic Steering`
 		Hyperdrive
@@ -180,7 +175,6 @@ ship "Marauder Firebird" "Marauder Firebird (Weapons - AlienTech)"
 		"LP036a Battery Pack"
 		"Hai Corundum Regenerator" 2
 		"Small Heat Shunt" 2
-		"Quantum Keystone"
 		"Pulse Rifle" 25
 		"Outfits Expansion"
 		"Security Station"
@@ -210,7 +204,6 @@ ship "Marauder Splinter" "Marauder Splinter (Engines - AlienTech)"
 		"Hai Diamond Regenerator"
 		"Small Heat Shunt" 2
 		"Outfits Expansion"
-		"Quantum Keystone"
 		"Tracker Storage Pod" 2
 		"Pulse Rifle" 22
 		"Security Station"
@@ -241,7 +234,6 @@ ship "Marauder Splinter" "Marauder Splinter (Weapons - AlienTech)"
 		"Hai Corundum Regenerator" 2
 		"Small Heat Shunt" 2
 		"Outfits Expansion"
-		"Quantum Keystone"
 		"Tracker Storage Pod" 2
 		"Pulse Rifle" 22
 		"Security Station" 2
@@ -272,7 +264,6 @@ ship "Marauder Manta" "Marauder Manta (Engines - AlienTech)"
 		"LP072a Battery Pack"
 		"Hai Corundum Regenerator"
 		"Small Heat Shunt" 2
-		"Quantum Keystone"
 		"Pulse Rifle" 11
 		"Security Station"
 		`"Bondir" Atomic Thruster`
@@ -301,7 +292,6 @@ ship "Marauder Manta" "Marauder Manta (Weapons - AlienTech)"
 		Supercapacitor
 		"S-270 Regenerator"
 		"Small Heat Shunt" 2
-		"Quantum Keystone"
 		"Pulse Rifle" 11
 		"Security Station"
 		`"Bondir" Atomic Thruster`

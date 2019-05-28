@@ -150,7 +150,6 @@ ship "Kestrel" "KestrelEng (Hai)"
 		"Hai Tracker" 140
 		"Tactical Scanner" 2
 		"Pulse Rifle" 128
-		"Quantum Keystone"
 		"A860 Atomic Thruster"
 		"A865 Atomic Steering"
 		`"Benga" Atomic Steering`
@@ -302,7 +301,6 @@ ship "Kestrel" "KestrelDef (Hai)"
 		"Outfits Expansion" 2
 		"Tactical Scanner" 2
 		"Pulse Rifle" 128
-		"Quantum Keystone"
 		"Tracker Storage Pod"
 		`"Bufaer" Atomic Thruster`
 		"A865 Atomic Steering"
@@ -526,7 +524,6 @@ ship "Kestrel" "KestrelWep (Hai)"
 		"Outfits Expansion" 4
 		"Pulse Rifle" 128
 		"Tactical Scanner"
-		"Quantum Keystone"
 		`"Bufaer" Atomic Thruster`
 		`"Basrem" Atomic Steering`
 		"A865 Atomic Steering"
