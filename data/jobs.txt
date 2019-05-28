@@ -36,8 +36,8 @@ mission "Southern Marauder Blockade"
 				`	(Don't join the militia fleet.)`
 					decline
 				`	(Join the militia fleet.)`
-			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
-				launch
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the militia pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you prepare your ships for combat, you can't help but wonder how many will not survive the imminent battle...`
+				accept
 	on complete
 		payment 3000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -78,8 +78,8 @@ mission "Northern Marauder Blockade"
 				`	(Don't join the Republic fleet.)`
 					decline
 				`	(Join the Republic fleet.)`
-			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Republic pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
-				launch
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Republic pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you prepare your ships for combat, you can't help but wonder how many will not survive the imminent battle...`
+				accept
 	on complete
 		payment 3000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -120,8 +120,8 @@ mission "Deep Marauder Blockade"
 				`	(Don't join the Deep Security fleet.)`
 					decline
 				`	(Join the Deep Security fleet.)`
-			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Deep Security pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
-				launch
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Deep Security pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you prepare your ships for combat, you can't help but wonder how many will not survive the imminent battle...`
+				accept
 	on complete
 		payment 3000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -162,8 +162,8 @@ mission "Core Marauder Blockade"
 				`	(Don't join the Syndicate fleet.)`
 					decline
 				`	(Join the Syndicate fleet.)`
-			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Syndicate pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you take off together, you can't help but wonder how many will not survive the imminent battle...`
-				launch
+			`The officer seems relieved. "We depart immediately! I'll see you all on the other side." Several of the Syndicate pilots also approach to thank you by name before dispersing to their ships, apparently you are somewhat well known around here. As you prepare your ships for combat, you can't help but wonder how many will not survive the imminent battle...`
+				accept
 	on complete
 		payment 3000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -574,7 +574,7 @@ mission "Core Marauder Fleet Clear"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 10000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -625,7 +625,7 @@ mission "Southern Marauder Fleet Clear"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 10000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -676,7 +676,7 @@ mission "Northern Marauder Fleet Clear"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 10000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -727,7 +727,7 @@ mission "Deep Marauder Fleet Clear"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 10000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -1007,7 +1007,7 @@ mission "Core Marauder Fleet Clear 2"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. Several of the hostile fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -1058,7 +1058,7 @@ mission "Northern Marauder Fleet Clear 2"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. The pirate fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -1109,7 +1109,7 @@ mission "Southern Marauder Fleet Clear 2"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. The pirate fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -1160,7 +1160,7 @@ mission "Deep Marauder Fleet Clear 2"
 					decline
 				`	("I'm ready and willing!")`
 			`"Thank you Captain. We will send as many ships as we can spare to join you. The pirate fleets may have converged on a single system by the time you find them, so take the utmost care. Your map will be marked when you've destroyed all of the hostile ships. Good luck!"`
-				launch
+				accept
 	on complete
 		payment 20000000
 		dialog phrase "generic pirate attack payment dialog"
@@ -1224,8 +1224,8 @@ mission "Deep Marauder Blockade Attempt 2 (Var1)"
 			choice
 				`	("Thanks!")`
 			`As you make ready for a quick launch, you hear a voice call "I've got your back Captain!" The voice is coming from a young and inexperienced looking merchant captain with aviator sunglasses, standing near a shiny new Bactrian.`
-			`"My dad just bought me this and it needs to see some action, what better way than to fight with the famous Captain <last>" "Are you insane?" you reply, "Several dozen pirate ships are about to blockade this system, this is not a fight for a novice."`
-			`The merchant captain grins and says "Yeah well I like to live on the wild side. See you up there!"`
+			`"My dad just bought me this and it needs to see some action, what better way than to fight with the famous Captain <last>?" "Are you insane?" you reply, "Several dozen pirate ships are about to blockade this system, this is not a fight for a novice."`
+			`The merchant captain grins and says "Yeah well, I like to live on the wild side. See you up there!"`
 			
 			`You don't have a good feeling about this.`
 				launch
