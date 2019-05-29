@@ -6,15 +6,15 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - 30+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. Some of these involve gigantic fleet battles so take care!
 
-- Note that no existing missions/jobs are altered, just new ones are added. All new jobs are repeating and can be declined with no penalty.
+- Many new variations of the "Marauder Hunted" mission, the "invisible" mission present in vanilla, where Marauder Bounty Hunters will occasionally hunt you down without warning if your combat rating is high enough. These new variations scale with combat rating, and come in two distinct flavours - small, homogeneous fleets of elite heavy warships with customised outfit combinations, and larger rag-tag fleets including all types of ships.
 
-- Progressively introduces Hai+limited Korath exile outfits, and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as  described above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally).
+- Note that no existing missions/jobs are altered, just new ones are added. All new missions are repeating and can be declined with no penalty.
+
+- Progressively introduces Hai+limited Korath exile outfits (heat shunts only), and the Kestrel, and then finally Hai/Korath fitted Kestrels, into ambient pirate/merchant fleets, mission targets (as  described above), and the Marauder Bounty Hunted fleet (that Marauder fleet that hunts you down occasionally if your combabt rating is high enough).
 
 - Introduces pirates in ships they don't normally use, such as the Protector, Vanguard, Osprey, Aerie, Mule, in correct regions. Pirates in military ships including Dreadnought, Skein, Frigate, Gunboat are added after main story completion. You'll see these extremely rarely in ambient fleets and as mission targets.
 
 - Additions described above that are based on storyline completion or Kestrel mission completion are applied retroactively. This means that you'll see all the changes on a save where you've completed these already, at least after you land once or twice post plugin install.
-
-- Many new variations of the "Marauder Hunted" missions. As your combat rating gets very high, you will see much tougher Bounty Hunter fleets occasionally hunt you down. These come in two distinct flavours - small, homogeneous fleets of elite heavy warships with customised outfit combinations, and larger rag-tag fleets including all types of ships.
 
 - *NEW* Now adds Korath Automata raid missions (spaceport) on certain Syndicate systems after the Korath Exiles start producing automata. Just like the Raider Attack missions in vanilla, just with Automata. You can now farm Sestor/Mereti ships post Wanderer storyline!
 
@@ -30,11 +30,11 @@ This plugin is designed to enhance/improve/fill gaps in many aspects of pirate c
 
 - As your combat rating continues to increase (up to a CR of 13), tougher and more varied Bounty Hunter fleets will hunt you down, and as above, these fleets become more varied with player progression. The spawn rate of these remains identical to vanilla. These fleets will keep you on your toes at all times in Human space, and force you to keep your combat and cargo/transport ships close or risk losing them. Tougher spaceport/job board missions will be unlocked at each combat rating from 8 to 12.
 
-- After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates in the occasional Military ship (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see alien tech fit Marauder fleets in the new missions as described above.
+- After you complete the main FW storyline (or if you've already completed it), you'll start to see merchants and pirates will sometimes be outfit with limited alien tech, and pirates will sometimes be seen in Military ships (Skein, Cruiser, Gunboat etc) in corresponding regions. You'll also start to see alien tech fit Marauder fleets in the new missions as described above.
 
-- After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels that actually use them all! Kestrels will also be seen occasionally in the missions described above.
+- After you complete the Kestrel missions (or if you've already completed them), you'll notice merchants and pirates start to occasionally appear in a wide range of Kestrel outfits, in the model that corresponds to your design choice in the Kestrel missions. This means if you choose weapons, you'll see 18 gun pirate Kestrels that actually use them all! Kestrels will also be seen occasionally in the missions described above.
 
-- After you complete both the main FW storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
+- After you complete both the main FW storyline and Kestrel missions (or if you've already completed them), you'll see the occasional limited alien tech fitted Kestrel, both in ambient merchant/pirate fleets, and in the missions described above.
 
 - Once you complete the Wanderer missions where the Korath Exiles begin using Sestor/Mereti automata as their own, some Syndicate systems will offer spaceport defence missions where the Korath are raiding the system with JD equipped automata! The payouts for these missions are relatively low, but they allow the player to obtain Sestor/Mereti ships after the Wanderer campaign (not possible in vanilla).
 
