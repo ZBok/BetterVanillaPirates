@@ -81,3 +81,42 @@ ship "Bactrian" "Elite Bactrian (Alien)"
 		`"Bufaer" Atomic Thruster`
 		`"Bufaer" Atomic Steering`
 		Hyperdrive
+
+ship "Protector" "Elite Protector"
+	outfits
+		"Torpedo Launcher" 2
+		Torpedo 60
+		"Quad Blaster Turret" 6
+		"Armageddon Core"
+		"LP144a Battery Pack"
+		"S-970 Regenerator"
+		"Liquid Helium Cooler"
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion"
+		"Laser Rifle" 36
+		"Security Station" 2
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Protector" "Elite Protector (Alien)"
+	outfits
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 112
+		"Pulse Turret" 4
+		"Modified Blaster Turret" 2
+		"Boulder Reactor"
+		"LP288a Battery Pack"
+		"Hai Diamond Regenerator"
+		"Large Heat Shunt"
+		"Pulse Rifle" 36
+		"Security Station" 2
+		`"Biroo" Atomic Thruster`
+		`"Bondir" Atomic Steering`
+		Hyperdrive
+	turret -54 -54 "Modified Blaster Turret"
+	turret 54 -54 "Modified Blaster Turret"
+	turret -73 0 "Pulse Turret"
+	turret 73 0 "Pulse Turret"
+	turret -54 54 "Pulse Turret"
+	turret 54 54 "Pulse Turret"

@@ -125,6 +125,8 @@ event "add alien tech marauders"
 			"Marauder Falcon (Weapons - AlienTech)" 4
 		add variant 1
 			"Marauder Leviathan (Weapons - AlienTech)" 4
+		add variant 2
+			"Elite Protector (Alien)" 5
 			
 event "Add Reg AlienTech"
 	fleet "Small Southern Merchants"
