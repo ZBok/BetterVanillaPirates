@@ -29,13 +29,13 @@ ship "Vanguard" "Elite Vanguard (Alien)"
 		`"Bondir" Atomic Thruster`
 		`"Bondir" Atomic Steering`
 		Hyperdrive
-	gun 0 -132 "Pulse Cannon"
-	gun -22 -122 "Ion Cannon"
-	gun 22 -122 "Ion Cannon"
-	gun -21 -45 "Pulse Cannon"
-	gun 21 -45 "Pulse Cannon"
-	gun -31 -45 "Pulse Cannon"
-	gun 31 -45 "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
 
 ship "Bactrian" "Elite Bactrian"
 	outfits
@@ -52,16 +52,14 @@ ship "Bactrian" "Elite Bactrian"
 		"A520 Atomic Thruster"
 		"A865 Atomic Steering"
 		Hyperdrive
-	gun -15 -226 "Electron Beam"
-	gun 15 -226 "Electron Beam"
-	gun -40 -133 "Electron Beam"
-	gun -45 -128 "Electron Beam"
-	turret -22 -148 "Electron Turret"
-	turret 26 -80 "Electron Turret"
-	turret -41 -20 "Electron Turret"
-	turret 32 -7 "Electron Turret"
-	turret 53 82
-	turret -37 186
+	gun "Electron Beam"
+	gun "Electron Beam"
+	gun "Electron Beam"
+	gun "Electron Beam"
+	turret "Electron Turret"
+	turret "Electron Turret"
+	turret "Electron Turret"
+	turret "Electron Turret"
 
 ship "Bactrian" "Elite Bactrian (Alien)"
 	outfits
@@ -114,9 +112,9 @@ ship "Protector" "Elite Protector (Alien)"
 		`"Biroo" Atomic Thruster`
 		`"Bondir" Atomic Steering`
 		Hyperdrive
-	turret -54 -54 "Modified Blaster Turret"
-	turret 54 -54 "Modified Blaster Turret"
-	turret -73 0 "Pulse Turret"
-	turret 73 0 "Pulse Turret"
-	turret -54 54 "Pulse Turret"
-	turret 54 54 "Pulse Turret"
+	turret "Modified Blaster Turret"
+	turret "Modified Blaster Turret"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+	turret "Pulse Turret"

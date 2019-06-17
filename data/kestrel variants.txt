@@ -23,12 +23,12 @@ ship "Kestrel" "KestrelEng (Particle)"
 		"A125 Atomic Steering"
 		"A865 Atomic Steering"
 		Hyperdrive
-	gun -75 57 "Torpedo Launcher"
-	gun 75 57 "Torpedo Launcher"
-	gun -53 61 "Particle Cannon"
-	gun 53 61 "Particle Cannon"
-	gun -31 66 "Particle Cannon"
-	gun 31 66 "Particle Cannon"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
 
 
 ship "Kestrel" "KestrelEng (Laser)"		
@@ -99,12 +99,12 @@ ship "Kestrel" "KestrelEng (Plasma)"
 		"A125 Atomic Steering"
 		"A865 Atomic Steering"
 		Hyperdrive
-	gun -75 57 "Torpedo Launcher"
-	gun 75 57 "Torpedo Launcher"
-	gun -53 61 "Plasma Cannon"
-	gun 53 61 "Plasma Cannon"
-	gun -31 66 "Plasma Cannon"
-	gun 31 66 "Plasma Cannon"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
 
 
 ship "Kestrel" "KestrelEng (Torp)"
@@ -154,12 +154,12 @@ ship "Kestrel" "KestrelEng (Hai)"
 		"A865 Atomic Steering"
 		`"Benga" Atomic Steering`
 		Hyperdrive
-	gun -75 57 "Hai Tracker Pod"
-	gun 75 57 "Hai Tracker Pod"
-	gun -53 61 "Ion Cannon"
-	gun 53 61 "Ion Cannon"
-	gun -31 66 "Pulse Cannon"
-	gun 31 66 "Pulse Cannon"
+	gun "Hai Tracker Pod"
+	gun "Hai Tracker Pod"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
 
 
 ship "Kestrel" "KestrelDef (Particle)"
@@ -182,12 +182,12 @@ ship "Kestrel" "KestrelDef (Particle)"
 		"A250 Atomic Thruster"
 		"A865 Atomic Steering"
 		Hyperdrive
-	gun -75 57 "Torpedo Launcher"
-	gun 75 57 "Torpedo Launcher"
-	gun -53 61 "Particle Cannon"
-	gun 53 61 "Particle Cannon"
-	gun -31 66 "Particle Cannon"
-	gun 31 66 "Particle Cannon"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
 
 		
 ship "Kestrel" "KestrelDef (Laser)"
@@ -253,12 +253,12 @@ ship "Kestrel" "KestrelDef (Plasma)"
 		"A250 Atomic Thruster"
 		"A865 Atomic Steering"
 		Hyperdrive
-	gun -75 57 "Torpedo Launcher"
-	gun 75 57 "Torpedo Launcher"
-	gun -53 61 "Plasma Cannon"
-	gun 53 61 "Plasma Cannon"
-	gun -31 66 "Plasma Cannon"
-	gun 31 66 "Plasma Cannon"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
 
 
 ship "Kestrel" "KestrelDef (Torp)"
@@ -306,12 +306,12 @@ ship "Kestrel" "KestrelDef (Hai)"
 		"A865 Atomic Steering"
 		`"Basrem" Atomic Steering`
 		Hyperdrive
-	gun -75 57 "Hai Tracker Pod"
-	gun 75 57 "Hai Tracker Pod"
-	gun -53 61 "Ion Cannon"
-	gun 53 61 "Ion Cannon"
-	gun -31 66 "Pulse Cannon"
-	gun 31 66 "Pulse Cannon"
+	gun "Hai Tracker Pod"
+	gun "Hai Tracker Pod"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	gun "Pulse Cannon"
+	gun "Pulse Cannon"
 
 
 ship "Kestrel" "KestrelWep (Particle)"
@@ -351,6 +351,10 @@ ship "Kestrel" "KestrelWep (Particle)"
 	gun 75 57 "Torpedo Launcher"
 	gun -75 57 "Torpedo Launcher"
 	gun 75 57 "Torpedo Launcher"
+	turret -7 -4
+	turret 7 -4
+	turret -23 14
+	turret 23 14
 	
 	
 ship "Kestrel" "KestrelWep (Laser)"
@@ -389,6 +393,10 @@ ship "Kestrel" "KestrelWep (Laser)"
 	gun 75 57 "Heavy Laser"
 	gun -75 57 "Heavy Laser"
 	gun 75 57 "Heavy Laser"
+	turret -7 -4 "Laser Turret"
+	turret 7 -4 "Laser Turret"
+	turret -23 14
+	turret 23 14
 	
 
 ship "Kestrel" "KestrelWep (Electron)"
@@ -426,7 +434,10 @@ ship "Kestrel" "KestrelWep (Electron)"
 	gun 75 57 "Electron Beam"
 	gun -75 57 "Electron Beam"
 	gun 75 57 "Electron Beam"
-
+	turret -7 -4
+	turret 7 -4
+	turret -23 14
+	turret 23 14
 
 ship "Kestrel" "KestrelWep (Plasma)"
 	add attributes
@@ -468,7 +479,10 @@ ship "Kestrel" "KestrelWep (Plasma)"
 	gun 75 57
 	gun -75 57
 	gun 75 57
-
+	turret -7 -4
+	turret 7 -4
+	turret -23 14
+	turret 23 14
 
 ship "Kestrel" "KestrelWep (Torp)"
 	add attributes
@@ -506,7 +520,10 @@ ship "Kestrel" "KestrelWep (Torp)"
 	gun 75 57 "Torpedo Launcher"
 	gun -75 57
 	gun 75 57
-
+	turret -7 -4
+	turret 7 -4
+	turret -23 14 "Heavy Anti-Missile Turret"
+	turret 23 14 "Heavy Anti-Missile Turret"
 
 ship "Kestrel" "KestrelWep (Hai)"
 	add attributes
@@ -546,3 +563,7 @@ ship "Kestrel" "KestrelWep (Hai)"
 	gun 75 57 "Hai Tracker Pod"
 	gun -75 57 "Hai Tracker Pod"
 	gun 75 57 "Hai Tracker Pod"
+	turret -7 -4
+	turret 7 -4
+	turret -23 14
+	turret 23 14
