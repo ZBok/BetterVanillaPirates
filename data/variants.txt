@@ -178,14 +178,14 @@ ship "Protector" "Elite Protector (Proton)"
 		"Meteor Missile Launcher" 2
 		"Proton Turret" 6
 		"S-970 Regenerator" 2
-	turret 0 -28.5
-	turret -48.5 -48.5 "Proton Turret"
-	turret 48.5 -48.5 "Proton Turret"
-	turret -68.5 0 "Proton Turret"
-	turret 68.5 0 "Proton Turret"
-	turret -48.5 48.5 "Proton Turret"
-	turret 48.5 48.5 "Proton Turret"
-	turret 0 30
+	turret
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret
 
 
 ship "Protector" "Elite Protector (Alien)"
