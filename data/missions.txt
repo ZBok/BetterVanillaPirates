@@ -378,7 +378,7 @@ mission "Hippinse CR11 Hunted"
 			`	"The real news is that for you, these guys will be employing jump drives. You won't be able to evade them as easily. Though they prefer setting up their ships for pure fighting and barely carry any fuel or ramscoops."`
 			choice
 				`	"How is that possible? Where did they get them from?"`
-				`	"Nonsense. No human in the history or future of the universe is badass enough to get their own jump drive except me."`
+				`	"Nonsense. No human in the history of the universe is badass enough to get their own jump drive except me."`
 			`	Hippinse snorts. "Korath Raiders really aren't that tough. You're not the only chimp in this ball game."`
 			choice
 				`	"That doesn't make any sense."`
