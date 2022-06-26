@@ -146,7 +146,7 @@ mission "CR9"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 10 10
+			distance 5 5
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
@@ -167,7 +167,7 @@ mission "CR9 Invisible"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 10 10
+			distance 5 5
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
@@ -264,7 +264,7 @@ mission "CR10"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 10 10
+			distance 5 5
 		ship "Shield Beetle (Tracker)"
 		ship "Solifuge (Tracker)"
 		ship "Violin Spider"
@@ -293,7 +293,7 @@ mission "CR10 Invisible"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 10 10
+			distance 5 5
 		ship "Shield Beetle (Tracker)"
 		ship "Solifuge (Tracker)"
 		ship "Violin Spider"
@@ -308,3 +308,190 @@ mission "CR10 Invisible"
 		ship "Marauder Leviathan (Weapons - AlienTech)"
 		ship "Marauder Splinter (Weapons - AlienTech)"
 		ship "Marauder Splinter (Engines - AlienTech)"
+
+
+mission "Hippinse CR11"
+	landing
+	name "Visit Hippinse"
+	description "Travel to <planet> to meet Hippinse."
+	source
+		near "Sabik" 1 100
+	destination "Freedom"
+	to offer
+		"combat rating" > 59874
+		or
+			has "CR10: done"
+			has "CR10: failed"
+	on offer
+		conversation
+			`Hello again Mr <last>, I think we should meet again as soon as possible. Same place. -Hippinse"`
+				accept
+	
+	on complete
+		dialog `You receive another message, "Find me in the spaceport."`
+
+mission "Hippinse CR11 Invisible"
+	landing
+	invisible
+	source
+		near "Sabik" 1 100
+	to offer
+		"combat rating" > 59874
+		or
+			has "CR10 Invisible: done"
+			has "CR10 Invisible: failed"
+	on offer
+		event "CR11 Boss" 15
+
+
+mission "Hippinse CR11 Hunted"
+	name "Hippinse Warning"
+	description "You have around 2 weeks before you get hunted."
+	source "Freedom"
+	to offer
+		has "Hippinse CR11: done"
+	on accept
+		payment -1000000
+	on decline
+		event "Hippinse Declined"
+	on offer
+		event "CR11 Boss" 15
+		conversation
+			`	Hippinse is waiting for you in the corner of the bar. He seems a little drunk this time.`
+			`	"You're in for some fun this time chap. The Guiding Hand Social Club, a relatively small but extremely powerful group of ex-navy veterans, was just commissioned to take you down. The price is the same this time, one million."`
+			choice
+				`	"Sorry I'm a little short at the moment, how about an autograph instead?"`
+					goto short
+				`	Pay him the 1 million.`
+					goto info
+			label short
+			`	Hippinse looks at you like he's just discovered something odorous stuck to his shoe.`
+			choice
+				`	"Okay, sorry." Pay him the 1mil.`
+					goto info
+				`	"Sorry I'm done with this."`
+					goto done
+			label info
+			`	"These lads are a serious step up. They completely eschew human ships, using Hai ships almost exclusively, though rumour has it they've acquired even more powerful alien ships recently."`
+			`	"They won't be using these in their operation against you though, I guess they don't have enough to risk yet. Their core members are originally from the... Core, and they love the Proton cannon. This weapon deals respectable damage against both shields and hull but the real strength is the range, far exceeding all human laser weapons. They will have also modified their ships systems and engines to be considerably stronger and faster than those you may be used to seeing."`
+			`	"Expect three Shield Beetles, two Solifuges with fighters and two Pond Striders with drones. They've been paid to stay on you for up to four months if they have to."`
+			`	"The real news is that for you, these guys will be employing jump drives. You won't be able to evade them as easily. Though they prefer setting up their ships for pure fighting and barely carry any fuel or ramscoops."`
+			choice
+				`	"How is that possible? Where did they get them from?"`
+				`	"Nonsense. No human in the history or future of the universe is badass enough to get their own jump drive except me."`
+			`	Hippinse snorts. "Korath Raiders really aren't that tough. You're not the only chimp in this ball game."`
+			choice
+				`	"That doesn't make any sense."`
+			`	"Yeah I think that Za's Revenge I just had was made somewhat over specification. Might have to go have a nap. They'll start chasing you in two weeks." Hippinse gets up and walks out slowly.`
+				accept
+			label done
+			`	"Okay then, best of luck." He gets up and leaves.`
+				decline
+
+
+event "CR11 Boss"
+
+mission "CR11"
+	landing
+	invisible
+	deadline 120
+	source
+		near "Sabik" 1 100
+	to offer
+		has "Hippinse CR11 Hunted: done"
+		has "event: CR11 Boss"
+	on offer
+		conversation
+			`You receive a message from Hippinse. "The GHSC just began their operation. Watch out."`
+				accept
+	npc kill
+		government "Bounty Hunter"
+		personality heroic unconstrained waiting nemesis plunders harvests
+		system
+			distance 5 5
+		ship "Shield Beetle (ProtonJump)"
+		ship "Shield Beetle (ProtonJump)"
+		ship "Shield Beetle (ProtonJump)"
+		ship "Solifuge (ProtonJump)"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Solifuge (ProtonJump)"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Pond Strider (ProtonJump)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Pond Strider (ProtonJump)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+
+
+mission "CR11 Invisible"
+	landing
+	invisible
+	deadline 120
+	source
+		near "Sabik" 1 100
+	to offer
+		has "event: Hippinse Declined"
+		has "event: CR11 Boss"
+	npc kill
+		government "Bounty Hunter"
+		personality heroic unconstrained waiting nemesis plunders harvests
+		system
+			distance 5 5
+		ship "Shield Beetle (ProtonJump)"
+		ship "Shield Beetle (ProtonJump)"
+		ship "Shield Beetle (ProtonJump)"
+		ship "Solifuge (ProtonJump)"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Solifuge (ProtonJump)"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Violin Spider"
+		ship "Pond Strider"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Pond Strider"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"
+		ship "Flea (Pulse)"

@@ -362,3 +362,79 @@ ship "Leviathan" "Leviathan (Electron)"
 		"Laser Rifle" 64
 		"Liquid Helium Cooler"
 		"S-970 Regenerator" 2
+
+
+ship "Shield Beetle" "Shield Beetle (ProtonJump)"
+	outfits
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Boulder Reactor"
+		"Bullfrog Anti-Missile"
+		"Chameleon Anti-Missile"
+		"Fuel Pod"
+		"Geode Reactor"
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Jump Drive"
+		"Large Heat Shunt"
+		"Outfits Expansion"
+		"Proton Gun" 8
+		"Proton Turret" 2
+		"Quantum Keystone"
+		Ramscoop
+		"S-970 Regenerator"
+		"Small Heat Shunt"
+		"Water Coolant System"
+	turret "Chameleon Anti-Missile"
+	turret "Bullfrog Anti-Missile"
+	turret "Proton Turret"
+	turret "Proton Turret"
+
+
+ship "Solifuge" "Solifuge (ProtonJump)"
+	outfits
+		`"Bufaer" Atomic Steering`
+		"A520 Atomic Thruster"
+		"Boulder Reactor"
+		"Bullfrog Anti-Missile"
+		"Chameleon Anti-Missile"
+		"Geode Reactor"
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Jump Drive"
+		"Large Heat Shunt" 2
+		"Proton Gun" 5
+		"Proton Turret" 5
+		"Quantum Keystone"
+		Ramscoop
+		"S-270 Regenerator"
+	turret "Proton Turret"
+	turret "Chameleon Anti-Missile"
+	turret "Bullfrog Anti-Missile"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Proton Turret"
+
+
+ship "Pond Strider" "Pond Strider (ProtonJump)"
+	outfits
+		`"Biroo" Atomic Steering`
+		`"Biroo" Atomic Thruster`
+		"Chameleon Anti-Missile"
+		"Fuel Pod"
+		"Fuel Processor"
+		"Geode Reactor"
+		"Jump Drive"
+		"LP072a Battery Pack"
+		"Outfits Expansion" 2
+		"Proton Turret" 2
+		"Pulse Rifle" 9
+		"Quantum Keystone"
+		"S-970 Regenerator"
+		"Sidewinder Missile" 135
+		"Sidewinder Missile Launcher" 3
+		"Small Heat Shunt" 2
+	turret "Chameleon Anti-Missile"
+	turret "Proton Turret"
+	turret "Proton Turret"
