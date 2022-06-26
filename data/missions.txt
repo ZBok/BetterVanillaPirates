@@ -146,7 +146,7 @@ mission "CR9"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 6 6
+			distance 10 10
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
@@ -167,7 +167,7 @@ mission "CR9 Invisible"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 6 6
+			distance 10 10
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
 		ship "Falcon (Electron)"
@@ -264,7 +264,7 @@ mission "CR10"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 6 6
+			distance 10 10
 		ship "Shield Beetle (Tracker)"
 		ship "Solifuge (Tracker)"
 		ship "Violin Spider"
@@ -293,7 +293,7 @@ mission "CR10 Invisible"
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
 		system
-			distance 6 6
+			distance 10 10
 		ship "Shield Beetle (Tracker)"
 		ship "Solifuge (Tracker)"
 		ship "Violin Spider"
