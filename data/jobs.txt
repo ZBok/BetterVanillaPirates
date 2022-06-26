@@ -1669,7 +1669,7 @@ mission "Marauder Hunted Two"
 	invisible
 	landing
 	repeat
-	destination "Earth"
+	deadline 45
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Pirate"
 	to offer
@@ -1677,8 +1677,6 @@ mission "Marauder Hunted Two"
 		"combat rating" < 162755
 		not "Marauder Hunted Two: active"
 		random < 2
-	to complete
-		never
 	npc kill
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
@@ -1691,7 +1689,7 @@ mission "Marauder Hunted Three"
 	invisible
 	landing
 	repeat
-	destination "Earth"
+	deadline 45
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Pirate"
 	to offer
@@ -1699,8 +1697,6 @@ mission "Marauder Hunted Three"
 		not "Marauder Hunted Three: active"
 		not "Elite Marauder Hunted: active"
 		random < 2
-	to complete
-		never
 	npc kill
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
@@ -1716,7 +1712,7 @@ mission "Elite Marauder Hunted"
 	invisible
 	landing
 	repeat
-	destination "Earth"
+	deadline 45
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Pirate"
 	to offer
@@ -1724,8 +1720,6 @@ mission "Elite Marauder Hunted"
 		not "Elite Marauder Hunted: active"
 		not "Marauder Hunted Three: active"
 		random < 2
-	to complete
-		never
 	npc kill
 		government "Bounty Hunter"
 		personality heroic unconstrained waiting nemesis plunders harvests
