@@ -238,7 +238,7 @@ mission "Hippinse CR10 Hunted"
 				`	"Sorry I'm done with this."`
 					goto done
 			label info
-			`	"The Fetts use only Hai and Marauder ships with no expense spared on the outfits, and they have a lot of them. They favour projectile based weapons, especially the Hai Tracker. This weapon has great range and can do massive damage in high numbers, but of course has limited ammunition. Anti-missile turrets might be helpful."`
+			`	"The Fetts use only Hai and Marauder ships with no expense spared on the outfits, and they have a lot of them. They favour projectile based weapons, especially the Hai Tracker. This weapon has great range and can do massive damage in high numbers, but of course has limited ammunition. Anti-missile turrets might be helpful, and you might want to consider ambushing them in a system with high asteroid density."`
 			`	"Expect a Shield Beetle, a Solifuge with full complement of six Hai fighters, two Marauder Falcons, two Marauder Leviathans and a couple of smaller Marauders. Expect all of them to use Tracker missiles. As before, they don't have jump drives. These guys are a little more determined but will still call off the operation in three months if they don't kill you before then. I'll send you a message when they begin hunting for you, around 2 weeks from now. Take care." He gets up to leave.`
 				accept
 			label done
