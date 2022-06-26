@@ -6,6 +6,8 @@ Like I want to see pirates in Kestrels sometimes. And in military ships even mor
 
 This plugin is designed to enhance/improve/fill gaps in many aspects of pirate combat in Human space, especially in the late-game. It does not contain any new weapons/ships/sprites, or any new or replacement storylines, nor does it make the early game any harder. It achieves all this by the adding the following (POTENTIAL SPOILERS BELOW!)
 
+- *NEW* Minor mission thread with three instalments unlocked at CR9, 10, 11, and more incoming soon (up to CR 13 or 14). These involve a shady NPC who offers you detailed information on unique bounty hunting groups coming to get you. The next few instalments will involve a longer mission finale and unlocking some powerful upgraded human weapons.
+
 - 30+ new combat missions (jobs and spaceport) with tonnes of variety and unusual low-chance variations in human space, complete with corresponding regional NPC assistance in many cases. These new missions include planetary defence, multiple wave planetary defence, nearby pirate blockade destruction and more. They range from 1mil to 20mil payouts, but the toughest jobs require extremely expensive fleets to complete without losses. Some of these involve very big fleet battles so take care!
 
 - Note that no existing missions/jobs are altered, just new ones added. All new missions are repeating and can be declined with no penalty.
