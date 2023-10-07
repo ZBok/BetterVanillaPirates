@@ -14,7 +14,7 @@ The mission to unlock this stuff is completely optional, and even completing it 
 
 If you encounter bugs pls report them.
 
-## BVP 1.0 Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting, and stayed challenging with worthwhile mission payouts even in the late game?
+## 1.0 Do you love vanilla ES everything but wish that the human pirates, bounty hunters and related combat missions (spaceport + job board), were a little more interesting, and stayed challenging with worthwhile mission payouts even in the late game?
 
 Like I want to see pirates in Kestrels sometimes. And in military ships even more rarely. And maybe with alien outfits. Also I want to see pirates (and merchants too?) in weird variants like full proton Kestrel or particle dreadnought or pulse cannon Firebird, etc.
 
