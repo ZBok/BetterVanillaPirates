@@ -10,7 +10,7 @@ These Mk II ships have heavily buffed shields/hull, and in most cases slightly b
 
 The Kestrel Mk II you are able to buy should respect your design choice in the Kestrel missions. The Kestrel Mk II and Dreadnought Mk II are buffed slightly less than the others due to already being relatively strong, and Bactrian is buffed far less due to it already being imba af.
 
-The mission to unlock this stuff is completely optional, and even completing it won't change anything in your game other than allowing you to purchase upgraded ships/weapons if you wish. None of the new ships/weaponry introduced are used by any NPC's, ambient or mission related. Yet.
+The mission to unlock this stuff is completely optional, and even completing it won't change anything in your game other than allowing you to purchase upgraded ships if you wish. None of the new ships introduced are used by any NPC's, ambient or mission related. Yet.
 
 If you encounter bugs pls report them.
 
