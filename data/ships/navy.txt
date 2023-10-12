@@ -215,7 +215,7 @@ ship "Cruiser Mk II"
 		"cargo space" 60
 		"outfit space" 874
 		"weapon capacity" 368
-		"engine capacity" 195.5
+		"engine capacity" 195
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
