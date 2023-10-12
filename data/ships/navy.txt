@@ -213,9 +213,9 @@ ship "Cruiser Mk II"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 60
-		"outfit space" 874
-		"weapon capacity" 368
-		"engine capacity" 195
+		"outfit space" 760
+		"weapon capacity" 320
+		"engine capacity" 170
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
